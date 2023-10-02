@@ -12,8 +12,11 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('registrasi', function (Blueprint $table) {
-            $table->id();
+            $table->id()->unique;
             $table->timestamps();
+            $table->string('nama', 50);
+            $table->char('username', 19);
+            $table->string('password', 15);
             
         });  
 }

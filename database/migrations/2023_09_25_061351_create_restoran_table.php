@@ -13,7 +13,11 @@ return new class extends Migration
     {
         Schema::create('restoran', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string('nama_restoran', 50);
+            $table->string('jenis_makanan', 20);
+            $table->string('menu', 30);
+            $table->text('deskripsi');
+            $table->string('lokasi', 50);    
         });
     }
 

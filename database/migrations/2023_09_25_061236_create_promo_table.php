@@ -13,7 +13,10 @@ return new class extends Migration
     {
         Schema::create('promo', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->date('created_at');
+            $table->date('end_at');
+            $table->string('nama_promo', 20);
+            $table->string('desc_promo', 100);
         });
     }
 

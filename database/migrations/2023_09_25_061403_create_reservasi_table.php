@@ -13,7 +13,9 @@ return new class extends Migration
     {
         Schema::create('reservasi', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->date('tgl_reservasi');
+            $table->time('waktu_reservasi');
+            $table->integer('jumlah_orang');
         });
     }
 
