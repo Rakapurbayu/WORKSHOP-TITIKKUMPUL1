@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <title>
-      TitikKumpul &mdash; Free Bootstrap 5 Website Template by Untree.co
+      TitikKumpul &mdash;
     </title>
   </head>
   <body>
