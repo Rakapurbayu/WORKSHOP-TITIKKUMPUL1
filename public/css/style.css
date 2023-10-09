@@ -10124,15 +10124,15 @@ textarea {
     cursor: pointer;
     padding: 7px 20px;
     border-radius: 30px;
-    background: rgba(0, 32, 74, 0.1);
-    color: #00204a;
+    background: #C70039;
+    color: #000 !important;
     text-align: center;
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease; }
     #property-nav span:hover, #property-nav span.active {
-      background: #00204a;
-      color: #fff !important; }
+      background: #FFCD4B;
+      color: #E9B824; } 
   #property-nav .prev, #property-nav .next {
     position: absolute;
     cursor: pointer; }
