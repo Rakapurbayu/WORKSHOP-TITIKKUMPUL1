@@ -124,6 +124,7 @@
         </div>
       </div>
     </div>
+   
 
     <div class="section">
       <div class="container">
@@ -133,6 +134,7 @@
               Tempat Pilihan TitikKumpul
             </h2>
           </div>
+          
           <div class="col-lg-6 text-lg-end">
             <p>
               <a
@@ -1039,5 +1041,15 @@
     <script src="js/navbar.js"></script>
     <script src="js/counter.js"></script>
     <script src="js/custom.js"></script>
+
+    	<!--================ End footer Area  =================-->
+        
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+       
+        <script src="js/bootstrap-datetimepicker.min.js"></script>
+<script></script>
+        
   </body>
 </html>
