@@ -6848,7 +6848,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: #dee2e6 ; }
+  color: #dc3545 ; }
 
 .text-secondary {
   --bs-text-opacity: 1;
@@ -6896,7 +6896,7 @@ textarea.form-control-lg {
 
 .text-black-50, body {
   --bs-text-opacity: 1;
-  color: rgba(0, 0, 0, 0.5) !important; }
+  color: #888888 !important; }
 
 .text-white-50 {
   --bs-text-opacity: 1;
@@ -6944,7 +6944,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important; }
+   }
 
 .bg-dark {
   --bs-bg-opacity: 1;
@@ -9757,7 +9757,7 @@ textarea {
 
 .testimonial blockquote {
   font-style: 18px;
-  color: #000; }
+  color: #fff; }
 
 .bg-image {
   background-size: cover;
@@ -9865,13 +9865,13 @@ textarea {
         width: 7px;
         height: 7px;
         border-radius: 50%;
-        background-color: rgba(0, 0, 0, 0.2);
+        background-color: #dee2e6 ;
         right: 0;
         -webkit-transition: .3s all ease;
         -o-transition: .3s all ease;
         transition: .3s all ease; }
       .property-slider-wrap .tns-nav button.tns-nav-active:before, .img-property-slide-wrap .tns-nav button.tns-nav-active:before {
-        background-color: #00204a; }
+        background-color: #dc3545; }
 
 .gradient-text {
   font-weight: 700;
@@ -9950,7 +9950,7 @@ textarea {
   padding-top: 10rem; }
 
 .section-4 {
-  background-color: #fff; }
+  background-color: #c5c5c5; }
   .section-4 .img-about {
     background-size: cover;
     background-position: center center; }
@@ -10322,7 +10322,7 @@ nav[aria-label="breadcrumb"] li:before {
   font-size: 14px; }
 
 .site-footer {
-  background: #efefef;
+  background: #c5c5c5;
   font-size: 14px;
   color: #888;
   padding: 70px 0; }
