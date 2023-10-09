@@ -47,14 +47,14 @@
       <div class="container">
         <div class="menu-bg-wrap">
           <div class="site-navigation">
-            <a href="index.html" class="logo m-0 float-start">Property</a>
+            <a href="{{ route('home') }}" class="logo m-0 float-start">TitikKumpul</a>
 
             <ul
               class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end"
             >
-              <li><a href="index.html">Home</a></li>
+              <li><a href="{{ route('home') }}">Beranda</a></li>
               <li class="has-children active">
-                <a href="properties.html">Properties</a>
+                <a href="{{ route('PesanNongkrong') }}">Pesan Tempat Nongkrong</a>
                 <ul class="dropdown">
                   <li><a href="#">Buy Property</a></li>
                   <li><a href="#">Sell Property</a></li>
@@ -68,9 +68,8 @@
                   </li>
                 </ul>
               </li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="{{ route('TentangKami') }}">Tentang Kami</a></li>
+              <li><a href="{{ route('KontakKami') }}">Kontak Kami</a></li>
             </ul>
 
             <a
@@ -877,10 +876,10 @@
 
         <div class="row mt-5">
           <div class="col-12 text-center">
-            <!-- 
+            <!--
               **==========
-              NOTE: 
-              Please don't remove this copyright link unless you buy the license here https://untree.co/license/  
+              NOTE:
+              Please don't remove this copyright link unless you buy the license here https://untree.co/license/
               **==========
             -->
 
