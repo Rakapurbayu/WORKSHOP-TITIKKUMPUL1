@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\IndexController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,4 +18,7 @@ Route::get('/', function () {
     return view('Index');
 });
 
-
+Route::get('/', [IndexController::class, 'home'])->name('home');
+Route::get('/properties', [IndexController::class, 'properties'])->name('properties');
+Route::get('/about', [IndexController::class, 'TentangKami'])->name('TentangKami');
+Route::get('/contact', [IndexController::class, 'KontakKami'])->name('KontakKami');

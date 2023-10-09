@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="image/favicon.png" type="image/png">
-        <title>Royal Hotel</title>
+        <title>TitikKumpul</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="vendors/linericon/style.css">
@@ -33,8 +33,8 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto">
-                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
-                            <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="index.blade.php">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.blade.php">About us</a></li>
                             <li class="nav-item"><a class="nav-link" href="accomodation.html">Accomodation</a></li>
                             <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
                             <li class="nav-item submenu dropdown">
@@ -43,16 +43,16 @@
                                     <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
                                     <li class="nav-item"><a class="nav-link" href="blog-single.html">Blog Details</a></li>
                                 </ul>
-                            </li> 
+                            </li>
                             <li class="nav-item"><a class="nav-link" href="elements.html">Elemests</a></li>
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                         </ul>
-                    </div> 
+                    </div>
                 </nav>
             </div>
         </header>
         <!--================Header Area =================-->
-        
+
         <!--================Banner Area =================-->
         <section class="banner_area">
             <div class="booking_table d_flex align-items-center">
@@ -136,7 +136,7 @@
             </div>
         </section>
         <!--================Banner Area =================-->
-        
+
         <!--================ Accomodation Area  =================-->
         <section class="accomodation_area section_gap">
             <div class="container">
@@ -189,10 +189,10 @@
             </div>
         </section>
         <!--================ Accomodation Area  =================-->
-        
+
         <!--================ Facilities Area  =================-->
         <section class="facilities_area section_gap">
-            <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background="">  
+            <div class="overlay bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background="">
             </div>
             <div class="container">
                 <div class="section_title text-center">
@@ -240,7 +240,7 @@
             </div>
         </section>
         <!--================ Facilities Area  =================-->
-        
+
         <!--================ About History Area  =================-->
         <section class="about_history_area section_gap">
             <div class="container">
@@ -259,7 +259,7 @@
             </div>
         </section>
         <!--================ About History Area  =================-->
-        
+
         <!--================ Testimonial Area  =================-->
         <section class="testimonial_area section_gap">
             <div class="container">
@@ -281,7 +281,7 @@
                                 <a href="#"><i class="fa fa-star-half-o"></i></a>
                             </div>
                         </div>
-                    </div>    
+                    </div>
                     <div class="media testimonial_item">
                         <img class="rounded-circle" src="image/testtimonial-1.jpg" alt="">
                         <div class="media-body">
@@ -309,7 +309,7 @@
                                 <a href="#"><i class="fa fa-star-half-o"></i></a>
                             </div>
                         </div>
-                    </div>    
+                    </div>
                     <div class="media testimonial_item">
                         <img class="rounded-circle" src="image/testtimonial-1.jpg" alt="">
                         <div class="media-body">
@@ -328,7 +328,7 @@
             </div>
         </section>
         <!--================ Testimonial Area  =================-->
-        
+
         <!--================ Latest Blog Area  =================-->
         <section class="latest_blog_area section_gap">
             <div class="container">
@@ -350,7 +350,7 @@
                                 <a href="#"><h4 class="sec_h4">Low Cost Advertising</h4></a>
                                 <p>Acres of Diamonds… you’ve read the famous story, or at least had it related to you. A farmer.</p>
                                 <h6 class="date title_color">31st January,2018</h6>
-                            </div>	
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -366,7 +366,7 @@
                                 <a href="#"><h4 class="sec_h4">Creative Outdoor Ads</h4></a>
                                 <p>Self-doubt and fear interfere with our ability to achieve or set goals. Self-doubt and fear are</p>
                                 <h6 class="date title_color">31st January,2018</h6>
-                            </div>	
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
@@ -382,15 +382,15 @@
                                 <a href="#"><h4 class="sec_h4">It S Classified How To Utilize Free</h4></a>
                                 <p>Why do you want to motivate yourself? Actually, just answering that question fully can </p>
                                 <h6 class="date title_color">31st January,2018</h6>
-                            </div>	
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!--================ Recent Area  =================-->
-        
-        <!--================ start footer Area  =================-->	
+
+        <!--================ start footer Area  =================-->
         <footer class="footer-area section_gap">
             <div class="container">
                 <div class="row">
@@ -419,20 +419,20 @@
                                         <li><a href="#">Blog</a></li>
                                         <li><a href="#">Contact</a></li>
                                     </ul>
-                                </div>										
-                            </div>							
+                                </div>
+                            </div>
                         </div>
-                    </div>							
+                    </div>
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-footer-widget">
                             <h6 class="footer_title">Newsletter</h6>
-                            <p>For business professionals caught between high OEM price and mediocre print and graphic output, </p>		
+                            <p>For business professionals caught between high OEM price and mediocre print and graphic output, </p>
                             <div id="mc_embed_signup">
                                 <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
                                     <div class="input-group d-flex flex-row">
                                         <input name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
-                                        <button class="btn sub-btn"><span class="lnr lnr-location"></span></button>		
-                                    </div>									
+                                        <button class="btn sub-btn"><span class="lnr lnr-location"></span></button>
+                                    </div>
                                     <div class="mt-10 info"></div>
                                 </form>
                             </div>
@@ -452,7 +452,7 @@
                                 <li><img src="image/instagram/Image-08.jpg" alt=""></li>
                             </ul>
                         </div>
-                    </div>						
+                    </div>
                 </div>
                 <div class="border_line"></div>
                 <div class="row footer-bottom d-flex justify-content-between align-items-center">
@@ -469,8 +469,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
             </div>
         </footer>
 		<!--================ End footer Area  =================-->
-        
-        
+
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="js/jquery-3.2.1.min.js"></script>

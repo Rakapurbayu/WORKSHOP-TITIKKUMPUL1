@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <title>
-      TitikKumpul &mdash; 
+      TitikKumpul &mdash;
     </title>
   </head>
   <body>
@@ -52,9 +52,9 @@
             <ul
               class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end"
             >
-              <li class="active"><a href="index.blade.php">Home</a></li>
+              <li class="active"><a href="{{ route('home') }}">Home</a></li>
               <li class="has-children">
-                <a href="properties.blade.php">Pesan Tempat Nongkrong</a>
+                <a href="{{ route('properties') }}">Pesan Tempat Nongkrong</a>
                 <ul class="dropdown">
                   <li><a href="#">Pesan Tempat</a></li>
                   <li><a href="#">Pesan Makan</a></li>
@@ -65,8 +65,8 @@
                   </li>
                 </ul>
               </li>
-              <li><a href="about.blade.php">Tentang Kami</a></li>
-              <li><a href="contact.blade.php">Kontak kami</a></li>
+              <li><a href="{{ route('TentangKami') }}">Tentang Kami</a></li>
+              <li><a href="{{ route('KontakKami') }}">Kontak kami</a></li>
             </ul>
 
             <a
@@ -106,7 +106,7 @@
             </h1>
             <h1 class="heading" data-aos="fade-up">
                 TitikKumpul
-            </h1>    
+            </h1>
             <form
               action="#"
               class="narrow-w form-search d-flex align-items-stretch mb-3"
@@ -124,7 +124,7 @@
         </div>
       </div>
     </div>
-   
+
 
     <div class="section">
       <div class="container">
@@ -134,7 +134,7 @@
               Tempat Pilihan TitikKumpul
             </h2>
           </div>
-          
+
           <div class="col-lg-6 text-lg-end">
             <p>
               <a
@@ -973,10 +973,10 @@
 
         <div class="row mt-5">
           <div class="col-12 text-center">
-            <!-- 
+            <!--
               **==========
-              NOTE: 
-              Please don't remove this copyright link unless you buy the license here https://untree.co/license/  
+              NOTE:
+              Please don't remove this copyright link unless you buy the license here https://untree.co/license/
               **==========
             -->
 
@@ -1016,13 +1016,13 @@
     <script src="js/custom.js"></script>
 
     	<!--================ End footer Area  =================-->
-        
-        
+
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-       
+
         <script src="js/bootstrap-datetimepicker.min.js"></script>
 <script></script>
-        
+
   </body>
 </html>
