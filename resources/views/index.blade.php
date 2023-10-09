@@ -143,7 +143,9 @@
                 class="btn btn-primary text-white py-3 px-4"
                 >Lihat Pilihan TitikKumpul</a
               >
+              
             </p>
+            
           </div>
         </div>
         <div class="row">
@@ -156,12 +158,13 @@
                   </a>
 
                   <div class="property-content">
-                    <div class="price mb-2"><span>$1,291,000</span></div>
+                    <div class="price mb-2"><span>The Golden Goose Restaurant</span></div>
                     <div>
                       <span class="d-block mb-2 text-black-50"
-                        >5232 California Fake, Ave. 21BC</span
+                        >Jalan Sisingamangaraja No. 10
+</span
                       >
-                      <span class="city d-block mb-3">California, USA</span>
+                      <span class="city d-block mb-3">Denpasar, Bali</span>
 
                       <div class="specs d-flex mb-4 py-0">
                       <a
@@ -187,12 +190,14 @@
                   </a>
 
                   <div class="property-content">
-                    <div class="price mb-2"><span>$1,291,000</span></div>
+                    <div class="price mb-2"><span>The Blue Plate Restaurant
+</span></div>
                     <div>
                       <span class="d-block mb-2 text-black-50"
-                        >5232 California Fake, Ave. 21BC</span
+                        >Jalan Kapten Pattimura No. 88
+</span
                       >
-                      <span class="city d-block mb-3">California, USA</span>
+                      <span class="city d-block mb-3">Manado, Sulawesi Utara</span>
 
                       <div class="specs d-flex mb-4">
                       <a
@@ -218,12 +223,13 @@
                   </a>
 
                   <div class="property-content">
-                    <div class="price mb-2"><span>$1,291,000</span></div>
+                    <div class="price mb-2"><span>The Red Lion Restaurant</span></div>
                     <div>
                       <span class="d-block mb-2 text-black-50"
-                        >5232 California Fake, Ave. 21BC</span
+                        >Jalan Ahmad Yani No. 789
+</span
                       >
-                      <span class="city d-block mb-3">California, USA</span>
+                      <span class="city d-block mb-3">Makassar, Sulawesi Selatan</span>
 
                       <div class="specs d-flex mb-4">
                       <a
@@ -249,12 +255,13 @@
                   </a>
 
                   <div class="property-content">
-                    <div class="price mb-2"><span> OBY'S RESTAURANT</span></div>
+                    <div class="price mb-2"><span> Oby's Restaurant</span></div>
                     <div>
                       <span class="d-block mb-2 text-black-50"
-                        >5232 California Fake, Ave. 21BC</span
+                        >Jalan Gatot Subroto No. 234
+</span
                       >
-                      <span class="city d-block mb-3">California, USA</span>
+                      <span class="city d-block mb-3">Bandung, Jawa Barat</span>
 
                       <div class="specs d-flex mb-4">
                       <a
