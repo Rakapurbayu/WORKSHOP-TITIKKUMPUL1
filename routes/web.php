@@ -15,10 +15,10 @@ use App\Http\Controllers\IndexController;
 */
 
 Route::get('/', function () {
-    return view('Index');
+    return view('index'); // Corrected the view name to 'index'
 });
 
-Route::get('/', [IndexController::class, 'home'])->name('home');
+Route::get('/home', [IndexController::class, 'home'])->name('home'); // Change the URI to '/home' to avoid conflicts
 Route::get('/properties', [IndexController::class, 'PesanNongkrong'])->name('PesanNongkrong');
 Route::get('/about', [IndexController::class, 'TentangKami'])->name('TentangKami');
 Route::get('/contact', [IndexController::class, 'KontakKami'])->name('KontakKami');
