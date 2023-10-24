@@ -14,18 +14,10 @@ class IndexController extends Controller
      */
     public function home()
     {
-        return view('index');
+        return view('pages.index');
     }
 
-    /**
-     * Display the properties view.
-     *
-     * @return \Illuminate\View\View
-     */
-    public function PesanNongkrong()
-    {
-        return view('properties');
-    }
+
 
     /**
      * Display the about view.
@@ -34,16 +26,6 @@ class IndexController extends Controller
      */
     public function TentangKami()
     {
-        return view('about');
-    }
-
-    /**
-     * Display the contact view.
-     *
-     * @return \Illuminate\View\View
-     */
-    public function KontakKami()
-    {
-        return view('contact');
+        return view('pages.about');
     }
 }

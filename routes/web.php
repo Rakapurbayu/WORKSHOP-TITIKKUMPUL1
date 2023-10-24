@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\AboutController;
+use App\Http\Controllers\PesanNongkrongController;
+use App\Http\Controllers\PesanMakanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,10 +19,12 @@ use App\Http\Controllers\IndexController;
 */
 
 Route::get('/', function () {
-    return view('index'); // Corrected the view name to 'index'
+    return view('pages.index'); // Corrected the view name to 'index'
 });
 
+
 Route::get('/home', [IndexController::class, 'home'])->name('home'); // Change the URI to '/home' to avoid conflicts
-Route::get('/properties', [IndexController::class, 'PesanNongkrong'])->name('PesanNongkrong');
-Route::get('/about', [IndexController::class, 'TentangKami'])->name('TentangKami');
-Route::get('/contact', [IndexController::class, 'KontakKami'])->name('KontakKami');
+Route::get('/pesan', [PesanNongkrongController::class, 'PesanNongkrong'])->name('PesanNongkrong');
+Route::get('/about', [AboutController::class, 'TentangKami'])->name('TentangKami');
+Route::get('/contact', [ContactController::class, 'KontakKami'])->name('KontakKami');
+Route::get('/makan', [PesanMakanController::class, 'PesanMakan'])->name('PesanMakan');

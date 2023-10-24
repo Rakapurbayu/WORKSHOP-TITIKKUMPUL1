@@ -2,16 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
-use Illuminate\Http\Response;
-use App\Models\AboutModel;
+use Illuminate\Routing\Controller;
 
-class LessonController extends Controller
+class AboutController extends Controller
 {
-    public function index()
+    public function TentangKami()
     {
-        $data = LessonModel;
-        return view('/about');
+        return view('pages.about');
     }
 }
