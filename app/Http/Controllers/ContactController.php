@@ -14,6 +14,6 @@ class ContactController extends Controller
      */
     public function KontakKami()
     {
-        return view('pages.contact');
+        return view('pages.contact',['title' => 'Kontak kami']);
     }
 }

@@ -14,6 +14,6 @@ class PesanNongkrongController extends Controller
      */
     public function PesanNongkrong()
     {
-        return view('pages.pesannongkrong');
+        return view('pages.pesannongkrong',['title' => 'Pesan Tempat Nongkrong']);
     }
 }
