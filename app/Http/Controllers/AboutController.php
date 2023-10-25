@@ -9,6 +9,6 @@ class AboutController extends Controller
 {
     public function TentangKami()
     {
-        return view('pages.about');
+        return view('pages.about' ,['title' => 'Tentang Kami']);
     }
 }

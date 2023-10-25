@@ -19,11 +19,11 @@ use App\Http\Controllers\PesanMakanController;
 */
 
 Route::get('/', function () {
-    return view('pages.index'); // Corrected the view name to 'index'
+    return view('pages.index');
 });
 
 
-Route::get('/home', [IndexController::class, 'home'])->name('home'); // Change the URI to '/home' to avoid conflicts
+Route::get('/home', [IndexController::class, 'home'])->name('home');
 Route::get('/pesan', [PesanNongkrongController::class, 'PesanNongkrong'])->name('PesanNongkrong');
 Route::get('/about', [AboutController::class, 'TentangKami'])->name('TentangKami');
 Route::get('/contact', [ContactController::class, 'KontakKami'])->name('KontakKami');

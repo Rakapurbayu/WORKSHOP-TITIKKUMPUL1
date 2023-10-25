@@ -14,18 +14,6 @@ class IndexController extends Controller
      */
     public function home()
     {
-        return view('pages.index');
-    }
-
-
-
-    /**
-     * Display the about view.
-     *
-     * @return \Illuminate\View\View
-     */
-    public function TentangKami()
-    {
-        return view('pages.about');
+        return view('pages.index', ['title' => "TitikKumpul, berkumpul ria dengan TitikKumpul"]);
     }
 }

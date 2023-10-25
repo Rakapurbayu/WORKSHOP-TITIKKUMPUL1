@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="css/style.css" />
 
     <title>
-        Property &mdash; Free Bootstrap 5 Website Template by Untree.co
+        {{ $title }} - TitikKumpul
     </title>
 </head>
 

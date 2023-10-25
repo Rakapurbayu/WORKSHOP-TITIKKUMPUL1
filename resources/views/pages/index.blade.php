@@ -257,10 +257,10 @@
                     <div class="box-feature">
                         <span class="flaticon-house"></span>
                         <h3 class="mb-3">Our Properties</h3>
-                        <p>
+                        <p-black>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Voluptates, accusamus.
-                        </p>
+                        </p-black>
                         <p><a href="#" class="learn-more">Learn More</a></p>
                     </div>
                 </div>
@@ -268,10 +268,10 @@
                     <div class="box-feature">
                         <span class="flaticon-building"></span>
                         <h3 class="mb-3">Property for Sale</h3>
-                        <p>
+                        <p-black>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Voluptates, accusamus.
-                        </p>
+                        </p-black>
                         <p><a href="#" class="learn-more">Learn More</a></p>
                     </div>
                 </div>
@@ -279,10 +279,10 @@
                     <div class="box-feature">
                         <span class="flaticon-house-3"></span>
                         <h3 class="mb-3">Real Estate Agent</h3>
-                        <p>
+                        <p-black>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Voluptates, accusamus.
-                        </p>
+                        </p-black>
                         <p><a href="#" class="learn-more">Learn More</a></p>
                     </div>
                 </div>
@@ -290,10 +290,10 @@
                     <div class="box-feature">
                         <span class="flaticon-house-1"></span>
                         <h3 class="mb-3">House for Sale</h3>
-                        <p>
+                        <p-black>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Voluptates, accusamus.
-                        </p>
+                        </p-black>
                         <p><a href="#" class="learn-more">Learn More</a></p>
                     </div>
                 </div>
@@ -336,12 +336,12 @@
                             </div>
                             <h3 class="h5 text-primary mb-4">James Smith</h3>
                             <blockquote>
-                                <p>
+                                <p-white>
                                     &ldquo;Far far away, behind the word mountains, far from the
                                     countries Vokalia and Consonantia, there live the blind
                                     texts. Separated they live in Bookmarksgrove right at the
                                     coast of the Semantics, a large language ocean.&rdquo;
-                                </p>
+                                </p-white>
                             </blockquote>
                             <p class="text-black-50">Designer, Co-founder</p>
                         </div>
@@ -360,12 +360,12 @@
                             </div>
                             <h3 class="h5 text-primary mb-4">Mike Houston</h3>
                             <blockquote>
-                                <p>
+                                <p-white>
                                     &ldquo;Far far away, behind the word mountains, far from the
                                     countries Vokalia and Consonantia, there live the blind
                                     texts. Separated they live in Bookmarksgrove right at the
                                     coast of the Semantics, a large language ocean.&rdquo;
-                                </p>
+                                </p-white>
                             </blockquote>
                             <p class="text-black-50">Designer, Co-founder</p>
                         </div>
@@ -384,12 +384,12 @@
                             </div>
                             <h3 class="h5 text-primary mb-4">Cameron Webster</h3>
                             <blockquote>
-                                <p>
+                                <p-white>
                                     &ldquo;Far far away, behind the word mountains, far from the
                                     countries Vokalia and Consonantia, there live the blind
                                     texts. Separated they live in Bookmarksgrove right at the
                                     coast of the Semantics, a large language ocean.&rdquo;
-                                </p>
+                                </p-white>
                             </blockquote>
                             <p class="text-black-50">Designer, Co-founder</p>
                         </div>
@@ -408,12 +408,12 @@
                             </div>
                             <h3 class="h5 text-primary mb-4">Dave Smith</h3>
                             <blockquote>
-                                <p>
+                                <p-white>
                                     &ldquo;Far far away, behind the word mountains, far from the
                                     countries Vokalia and Consonantia, there live the blind
                                     texts. Separated they live in Bookmarksgrove right at the
                                     coast of the Semantics, a large language ocean.&rdquo;
-                                </p>
+                                </p-white>
                             </blockquote>
                             <p class="text-black-50">Designer, Co-founder</p>
                         </div>
@@ -548,11 +548,11 @@
                         <div class="person-contents">
                             <h2 class="mb-0"><a href="#">James Doe</a></h2>
                             <span class="meta d-block mb-3">Real Estate Agent</span>
-                            <p>
+                            <p-black>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Facere officiis inventore cumque tenetur laboriosam, minus
                                 culpa doloremque odio, neque molestias?
-                            </p>
+                            </p-black>
 
                             <ul class="social list-unstyled list-inline dark-hover">
                                 <li class="list-inline-item">
@@ -578,11 +578,11 @@
                         <div class="person-contents">
                             <h2 class="mb-0"><a href="#">Jean Smith</a></h2>
                             <span class="meta d-block mb-3">Real Estate Agent</span>
-                            <p>
+                            <p-black>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Facere officiis inventore cumque tenetur laboriosam, minus
                                 culpa doloremque odio, neque molestias?
-                            </p>
+                            </p-black>
 
                             <ul class="social list-unstyled list-inline dark-hover">
                                 <li class="list-inline-item">
@@ -608,11 +608,11 @@
                         <div class="person-contents">
                             <h2 class="mb-0"><a href="#">Alicia Huston</a></h2>
                             <span class="meta d-block mb-3">Real Estate Agent</span>
-                            <p>
+                            <p-black>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Facere officiis inventore cumque tenetur laboriosam, minus
                                 culpa doloremque odio, neque molestias?
-                            </p>
+                            </p-black>
 
                             <ul class="social list-unstyled list-inline dark-hover">
                                 <li class="list-inline-item">
