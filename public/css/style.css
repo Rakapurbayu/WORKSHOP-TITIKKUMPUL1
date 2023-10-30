@@ -6902,11 +6902,11 @@ textarea.form-control-lg {
 
 .text-black-50, body {
   --bs-text-opacity: 1;
-  color: #f2f2f2 !important; }
+  color: #212121 !important; }
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important; }
+  color: #F2F2F2 !important; }
 
 .text-reset {
   --bs-text-opacity: 1;
@@ -9718,7 +9718,9 @@ textarea {
       -webkit-box-shadow: none;
       box-shadow: none; }
   .hero .form-search .form-control {
-    margin-right: 10px; }
+    margin-right: 10px;
+    margin-left: 10px;
+}
   .hero .form-search .btn {
     background-color: #EE9322;
     padding-left: 30px;
@@ -10026,7 +10028,7 @@ textarea {
   width: 40px;
   height: 40px;
   color: #fff;
-  background: #00204a;
+  background: #EE9322;
   border-radius: 50%;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -10048,8 +10050,8 @@ textarea {
     border: 2px solid #fff; }
 
 .social.dark-hover a:hover {
-  color: #00204a;
-  border: 2px solid #00204a; }
+  color: #EE9322;
+  border: 2px solid #EE9322; }
 
 .links-arrow-before li {
   margin-bottom: 15px;
@@ -10328,23 +10330,23 @@ nav[aria-label="breadcrumb"] li:before {
   font-size: 14px; }
 
 .site-footer {
-  background: #c5c5c5;
+  background: #73787C;
   font-size: 14px;
-  color: #888;
+  color: #F2F2F2;
   padding: 70px 0; }
   .site-footer a {
-    color: #777;
+    color: #F2F2F2;
     position: relative;
     display: inline-block;
     text-decoration: underline; }
     .site-footer a:hover {
-      color: #000;
+      color: #EE9322;
       text-decoration: none; }
       .site-footer a:hover:before {
-        background: #00204a; }
+        background: #EE9322; }
   .site-footer .footer-cta h2, .site-footer .footer-cta .h2 {
     font-size: 30px;
-    color: #00204a; }
+    color: #EE9322; }
   .site-footer .btn:before {
     display: none; }
   .site-footer .widget {
@@ -10355,7 +10357,7 @@ nav[aria-label="breadcrumb"] li:before {
       font-weight: 700;
       text-transform: uppercase;
       margin-bottom: 15px;
-      color: #00204a; }
+      color: #EE9322; }
     .site-footer .widget .links {
       width: 150px; }
       .site-footer .widget .links li {
@@ -10367,7 +10369,7 @@ nav[aria-label="breadcrumb"] li:before {
       width: 40px;
       height: 40px;
       position: relative;
-      background: #ccc;
+      background: #212121;
       border-radius: 40%; }
       .site-footer .social li a:before {
         display: none; }
@@ -10379,5 +10381,30 @@ nav[aria-label="breadcrumb"] li:before {
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%); }
       .site-footer .social li a:hover {
-        background: #00204a;
+        background: #EE9322;
         color: #fff; }
+
+        /* ... (Potongan kode CSS Anda yang ada sebelumnya) ... */
+
+/* Styling untuk fitur tambahan */
+.form-search input[type="date"],
+.form-search input[type="time"],
+.form-search input[type="number"] {
+    flex: 3; /* Meningkatkan rasio dari 2 menjadi 3 */
+    margin-right: 15px;
+    border-radius: 30px;
+    border: none;
+    padding: 15px 20px;
+    background-color: #fff;
+}
+
+.form-search input[type="text"] {
+    flex: 8; /* Meningkatkan rasio dari 5 menjadi 8 */
+    border-radius: 30px;
+    border: none;
+    padding: 15px 20px;
+    background-color: #fff;
+}
+
+/* ... (Potongan kode CSS Anda yang ada sebelumnya) ... */
+

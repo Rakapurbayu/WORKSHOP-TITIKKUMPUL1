@@ -19,14 +19,58 @@
                     </h1>
                     <form action="#" class="narrow-w form-search d-flex align-items-stretch mb-3" data-aos="fade-up"
                         data-aos-delay="200">
+                        <input type="date" class="form-control px-4" placeholder="Book Date" />
+                        <input type="time" class="form-control px-4" placeholder="Jam" />
+                        <input type="number" class="form-control px-4" placeholder="Jumlah Orang" min="1" max="50" />
                         <input type="text" class="form-control px-4" placeholder="Dimanakah tempat kumpul mu?" />
                         <button type="submit" class="btn btn-primary">Cari</button>
                     </form>
+                    <!-- Booking start
+                    <div class="additional-features narrow-w form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="250">
+                        <input type="date" class="form-control px-4" placeholder="Book Date" />
+                        <input type="time" class="form-control px-4" placeholder="Jam" />
+                        <input type="number" class="form-control px-4" placeholder="Jumlah Orang" min="1" max="50" />
+                    </div>
+                    Booking End -->
+                    <!-- Booking Start
+            <div class="container">
+                    <div class="row g-2">
+                        <div class="col-md-10">
+                            <div class="row g-2">
+                                <div class="col-md-3">
+                                    <div class="date" id="date1" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input"
+                                            placeholder="Check in" data-target="#date1" data-toggle="datetimepicker" />
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="date" id="date2" data-target-input="nearest">
+                                        <input type="text" class="form-control datetimepicker-input" placeholder="Check out" data-target="#date2" data-toggle="datetimepicker"/>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <select class="form-select">
+                                        <option selected>Jumlah Orang</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        Booking End -->
                 </div>
             </div>
         </div>
     </div>
-
 
     <div class="section">
         <div class="container">
@@ -50,14 +94,14 @@
                         <div class="property-slider">
                             <div class="property-item">
                                 <a href="property-single.html" class="img">
-                                    <img src="images/img_1.jpg" alt="Image" class="img-fluid" />
+                                    <img src="images/img_1.jpeg" alt="Image" class="img-fluid" />
                                 </a>
 
                                 <div class="property-content">
-                                    <div class="price mb-2"><span>$1,291,000</span></div>
+                                    <div class="price mb-2"><span>Cafe Lali Djiwo</span></div>
                                     <div>
-                                        <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                                        <span class="city d-block mb-3">California, USA</span>
+                                        <span class="d-block mb-2 text-black-50">Semeru, Prigen, Kec. Prigen, Pasuruan, Jawa Timur 67157</span>
+                                        <span class="city d-block mb-3">Pasuruan, Jawa Timur</span>
 
                                         <div class="specs d-flex mb-4 py-0">
                                             <a href="property-single.html" class="btn btn-primary py-2 px-3">See Menu</a>
@@ -71,14 +115,14 @@
 
                             <div class="property-item">
                                 <a href="property-single.html" class="img">
-                                    <img src="images/img_2.jpg" alt="Image" class="img-fluid" />
+                                    <img src="images/img_2.jpeg" alt="Image" class="img-fluid" />
                                 </a>
 
                                 <div class="property-content">
-                                    <div class="price mb-2"><span>$1,291,000</span></div>
+                                    <div class="price mb-2"><span>Jokopi</span></div>
                                     <div>
-                                        <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                                        <span class="city d-block mb-3">California, USA</span>
+                                        <span class="d-block mb-2 text-black-50">Ketebang, Genteng, Surabaya, Jawa Timur 60272</span>
+                                        <span class="city d-block mb-3">Surabaya, Jawa Timur</span>
 
                                         <div class="specs d-flex mb-4">
                                             <a href="property-single.html" class="btn btn-primary py-2 px-3">See Menu</a>
@@ -218,14 +262,14 @@
 
                             <div class="property-item">
                                 <a href="property-single.html" class="img">
-                                    <img src="images/img_1.jpg" alt="Image" class="img-fluid" />
+                                    <img src="images/img_9.jpg" alt="Image" class="img-fluid" />
                                 </a>
 
                                 <div class="property-content">
-                                    <div class="price mb-2"><span>$1,291,000</span></div>
+                                    <div class="price mb-2"><span>Starbucks</span></div>
                                     <div>
-                                        <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                                        <span class="city d-block mb-3">California, USA</span>
+                                        <span class="d-block mb-2 text-black-50">Kalijudan, Mulyorejo, Surabaya, Jawa Timur 60114</span>
+                                        <span class="city d-block mb-3">Surabaya, Jawa Timur</span>
 
                                         <div class="specs d-flex mb-4">
                                             <a href="property-single.html" class="btn btn-primary py-2 px-3">See Menu</a>
@@ -449,7 +493,7 @@
                         </span>
                         <div class="feature-text">
                             <h3 class="heading">2M Properties</h3>
-                            <p class="text-black-50">
+                            <p class="text-white-50">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Nostrum iste.
                             </p>
@@ -462,7 +506,7 @@
                         </span>
                         <div class="feature-text">
                             <h3 class="heading">Top Rated Agents</h3>
-                            <p class="text-black-50">
+                            <p class="text-white-50">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Nostrum iste.
                             </p>
@@ -475,7 +519,7 @@
                         </span>
                         <div class="feature-text">
                             <h3 class="heading">Legit Properties</h3>
-                            <p class="text-black-50">
+                            <p class="text-white-50">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Nostrum iste.
                             </p>
@@ -487,25 +531,25 @@
                 <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
                     <div class="counter-wrap mb-5 mb-lg-0">
                         <span class="number"><span class="countup text-primary">3298</span></span>
-                        <span class="caption text-black-50"># of Buy Properties</span>
+                        <span class="caption text-white-50"># of Buy Properties</span>
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
                     <div class="counter-wrap mb-5 mb-lg-0">
                         <span class="number"><span class="countup text-primary">2181</span></span>
-                        <span class="caption text-black-50"># of Sell Properties</span>
+                        <span class="caption text-white-50"># of Sell Properties</span>
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="500">
                     <div class="counter-wrap mb-5 mb-lg-0">
                         <span class="number"><span class="countup text-primary">9316</span></span>
-                        <span class="caption text-black-50"># of All Properties</span>
+                        <span class="caption text-white-50"># of All Properties</span>
                     </div>
                 </div>
                 <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="600">
                     <div class="counter-wrap mb-5 mb-lg-0">
                         <span class="number"><span class="countup text-primary">7191</span></span>
-                        <span class="caption text-black-50"># of Agents</span>
+                        <span class="caption text-white-50"># of Agents</span>
                     </div>
                 </div>
             </div>

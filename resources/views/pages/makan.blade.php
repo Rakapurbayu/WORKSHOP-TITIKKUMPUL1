@@ -8,7 +8,7 @@
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-lg-9 text-center mt-5">
-            <h1 class="heading" data-aos="fade-up">Services</h1>
+            <h1 class="heading" data-aos="fade-up">Pesan Makan & Minum</h1>
 
             <nav
               aria-label="breadcrumb"
@@ -21,7 +21,7 @@
                   class="breadcrumb-item active text-white-50"
                   aria-current="page"
                 >
-                  Services
+                Pesan Makan & Minum
                 </li>
               </ol>
             </nav>
