@@ -149,9 +149,9 @@
       </div>
       <img class="line-1-variant2-L8Z" src="REPLACE_IMAGE:4:5"/>
     </div>
-    <div class="find-button-sPP">Reservasi</div>
-    <img class="arrowforwardios-8q7" src="./assets/arrowforwardios-4bK.png"/>
-    <img class="arrowforwardios-TsP" src="./assets/arrowforwardios-Wc9.png"/>
+    <div class="find-button-sPP">
+        <a href="URL example route" style="color: #FFFAFA;">Reservasi</a>
+    </div>
   </div>
 </div>
 </body>
