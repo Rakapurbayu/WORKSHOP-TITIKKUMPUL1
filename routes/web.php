@@ -6,6 +6,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\PesanNongkrongController;
 use App\Http\Controllers\PesanMakanController;
+use App\Http\Controllers\JokopiController;
 
 /*
 |--------------------------------------------------------------------------
