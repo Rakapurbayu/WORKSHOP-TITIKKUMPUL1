@@ -7,6 +7,7 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\PesanNongkrongController;
 use App\Http\Controllers\PesanMakanController;
 use App\Http\Controllers\JokopiController;
+use App\Http\Controllers\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,6 +25,8 @@ Route::get('/', function () {
 });
 
 
+Route::get('/login', [LoginController::class, 'login'])->name('login');
+Route::get('/register', [LoginController::class, 'signup'])->name('register');
 Route::get('/home', [IndexController::class, 'home'])->name('home');
 Route::get('/pesan', [PesanNongkrongController::class, 'PesanNongkrong'])->name('PesanNongkrong');
 Route::get('/about', [AboutController::class, 'TentangKami'])->name('TentangKami');
