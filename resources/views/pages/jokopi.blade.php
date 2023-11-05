@@ -39,7 +39,7 @@
           <p class="international-Ms7">International</p>
         </div>
         <p class="jokopi-cafe-surabaya-Gz5">
-        JOKOPI - Cafe 
+        JOKOPI - Cafe
         <br/>
         Surabaya
         </p>
@@ -51,7 +51,7 @@
           <p class="reviews-can-only-be-made-by-diners-who-have-eaten-at-this-restaurant-UMP">
           Reviews can only be made by diners who have eaten at this restaurant
           <br/>
-          
+
           </p>
           <img class="line-1-wEy" src="./assets/line-1-Rpd.png"/>
           <p class="view-menu-on-restaurants-website-4Kb">View menu on restaurant&#39;s website</p>
@@ -97,7 +97,7 @@
             <div class="services-checklistpoint-GDw">
               <img class="checklist-RMj" src="./assets/checklist.png"/>
               <p class="sick-staff-prohibited-in-workplace-9oX">
-              Sick staff prohibited in 
+              Sick staff prohibited in
               <br/>
               workplace
               </p>
@@ -125,32 +125,34 @@
           <img class="line-1-variant2-x49" src="./assets/line-1-variant2-bCd.png"/>
         </div>
         <div class="auto-group-ppx3-tTb">
-          <p class="party-size-3LV">Party size</p>
-          <p class="people-AR7">2 People</p>
+<p>Party Size</p>          <form action="#" class="narrow-w form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
+            <input type="number" class="form-control px-4" placeholder="Jumlah Orang" min="1" max="50" />
+        </form>
           <div class="line-2-saR">
           </div>
         </div>
         <div class="auto-group-ryt3-C6u">
           <div class="auto-group-kew5-Lyo">
-            <p class="date-Vbo">Date</p>
-            <p class="nov-52023-pe5">Nov 5,2023</p>
+<p>Date</p>            <form action="#" class="narrow-w form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
+                        <input type="date" class="form-control px-4" id="dateInput" placeholder="Tanggal" />
+                    </form>
             <img class="line-3-k1w" src="REPLACE_IMAGE:14:172"/>
-            <img class="arrowforwardios-5pu" src="./assets/arrowforwardios.png"/>
           </div>
           <div class="auto-group-mpns-DAR">
-            <p class="time-xdo">Time</p>
-            <p class="pm-V7w">9:30 PM</p>
+<p>Time</p>            <form action="#" class="narrow-w form-search d-flex align-items-stretch mb-3" data-aos="fade-up"
+                        data-aos-delay="200">
+                        <input type="time" class="form-control px-4" placeholder="Jam" />
+                    </form>
             <img class="line-4-nsj" src="REPLACE_IMAGE:14:178"/>
           </div>
         </div>
       </div>
       <img class="line-1-variant2-L8Z" src="REPLACE_IMAGE:4:5"/>
     </div>
-    <div class="find-button-sPP">
-    <a href="https://www.contoh.com/reservasi">Reservasi</a>
-</div>
-<img class="arrowforwardios-8q7" src="./assets/arrowforwardios-4bK.png" />
-<img class="arrowforwardios-TsP" src="./assets/arrowforwardios-Wc9.png" />
+    <div class="find-button-sPP">Reservasi</div>
+    <img class="arrowforwardios-8q7" src="./assets/arrowforwardios-4bK.png"/>
+    <img class="arrowforwardios-TsP" src="./assets/arrowforwardios-Wc9.png"/>
+  </div>
 </div>
 </body>
 @endsection
