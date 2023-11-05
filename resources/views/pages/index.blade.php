@@ -85,8 +85,8 @@
                                         <div class="specs d-flex mb-4">
                                             <a href="property-single.html" class="btn btn-primary py-2 px-3">See Menu</a>
                                         </div>
-
-                                        <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
+                                       
+                                        <a href=" {{ route('JokopiVendor') }}" class="btn btn-primary py-2 px-3">See details</a>
                                     </div>
                                 </div>
                             </div>
