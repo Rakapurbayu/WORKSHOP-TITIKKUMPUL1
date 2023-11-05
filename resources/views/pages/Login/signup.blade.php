@@ -32,7 +32,9 @@
 </head>
 
 <body>
-    <div class="container-fluid position-relative d-flex p-0">
+    <div class="container-fluid">
+        <!-- Back Button -->
+        <a href="{{ route('home') }}" class="btn btn-secondary mt-3 ms-3">Back</a>
 
         <!-- Sign Up Start -->
         <div class="container-fluid">
@@ -65,7 +67,8 @@
                             <a href="">Forgot Password</a>
                         </div>
                         <button type="submit" class="btn btn-primary py-3 w-100 mb-4">Sign Up</button>
-                        <p class="text-center mb-0">Already have an Account? <a href="">Sign In</a></p>
+                        <p class="text-center mb-0">Already have an Account? <a href="{{ route('Login') }}" >Login</a></p>
+
                     </div>
                 </div>
             </div>

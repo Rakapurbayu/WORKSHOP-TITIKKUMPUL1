@@ -26,12 +26,28 @@ Route::get('/', function () {
 
 
 Route::get('/login', [LoginController::class, 'login'])->name('Login');
-Route::get('/regis', [RegisterController::class, 'register'])->name('Register');
+
+
+Route::get('/register', [RegisterController::class, 'register'])->name('Register');
+
+
 Route::get('/home', [IndexController::class, 'home'])->name('home');
+
+
 Route::get('/pesan', [PesanNongkrongController::class, 'PesanNongkrong'])->name('PesanNongkrong');
+
+
 Route::get('/about', [AboutController::class, 'TentangKami'])->name('TentangKami');
+
+
 Route::get('/contact', [ContactController::class, 'KontakKami'])->name('KontakKami');
+
+
 Route::get('/makan', [PesanMakanController::class, 'PesanMakan'])->name('PesanMakan');
+
+
 Route::get('/vendor', [PesanMakanController::class, 'Vendor'])->name('DetailsVendor');
+
+
 Route::get('/jokopi', [JokopiController::class, 'JokopiVendor'])->name('JokopiVendor');
 

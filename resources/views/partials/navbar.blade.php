@@ -20,6 +20,7 @@
                 </li>
                 <li><a href="{{ route('TentangKami') }}">Tentang Kami</a></li>
                 <li><a href="{{ route('KontakKami') }}">Kontak kami</a></li>
+                <li><a href="{{ route('Login') }}">Login</a></li>
                 </ul>
 
                 <a href="#"
