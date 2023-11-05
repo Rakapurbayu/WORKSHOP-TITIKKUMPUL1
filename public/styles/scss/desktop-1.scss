@@ -14,110 +14,882 @@ input {
 }
 body {
   width: 144rem;
-}.desktop-1-Tov {
-  background-color: #212121;
+}.desktop-1-7eh {
+  padding-bottom: 8.3rem;
   width: 100%;
-  height: 102.4rem;
-  position: relative;
   overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #212121;
+  box-sizing: border-box;
 
-  .image-1-oFW {
-    height: 41.7rem;
+  .auto-group-fnnf-JDP {
+    width: 100%;
+    height: 158.2rem;
     position: relative;
-    left: 0;
-    top: 0;
-    background-size: 101.389% 143.776%;
-    background-position: 0rem -19.8261rem;
-    background-image: url('REPLACE_IMAGE:4a7c856226fa8d6c847147cf1994fa6e7ffa28e6');
-    width: 144rem;
+    flex-shrink: 0;
+
+    .image-1-CCH {
+      background-image: url('REPLACE_IMAGE:4a7c856226fa8d6c847147cf1994fa6e7ffa28e6');
+      width: 144rem;
+      height: 41.7rem;
+      position: relative;
+      left: 0;
+      top: 0;
+      background-size: 101.389% 143.776%;
+      background-position: 0rem -19.8261rem;
+    }
+    .restaurantcard-details-eiV {
+      position: absolute;
+      left: 82.2rem;
+      top: 29.6rem;
+      box-shadow: 0.8rem 0.4rem 0.4rem rgba(187, 143, 31, 0.6100000143);
+      background-color: #ffffff;
+      border-radius: 1.8rem;
+      width: 48.5rem;
+      height: 35.7rem;
+    }
+    .group-1-uPX {
+      top: 29.2rem;
+      width: 107.6rem;
+      height: 129rem;
+      position: absolute;
+      left: 18.6rem;
+
+      .auto-group-jpa7-1xM {
+        border-radius: 1.8rem;
+        width: 59.4rem;
+        height: 129rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        box-shadow: 0.8rem 0.4rem 0.4rem rgba(187, 143, 31, 0.6100000143);
+        background-color: #ffffff;
+
+        .auto-group-acep-vZX {
+          width: 23.7rem;
+          height: 1.9rem;
+          position: absolute;
+          left: 5.5rem;
+          top: 5.9rem;
+          display: flex;
+          align-items: center;
+
+          .overview-Eq7 {
+            flex-shrink: 0;
+            margin-right: 3.2rem;
+            font-size: 1.5rem;
+            font-weight: 400;
+            line-height: 1.2125;
+            color: #e88529;
+            font-family: Inter, 'Source Sans Pro';
+            white-space: nowrap;
+          }
+          .menu-eXT {
+            font-weight: 400;
+            font-family: Inter, 'Source Sans Pro';
+            margin-right: 3.9rem;
+            cursor: pointer;
+            color: #000000;
+            white-space: nowrap;
+            flex-shrink: 0;
+            font-size: 1.5rem;
+            line-height: 1.2125;
+          }
+          .reviews-Ycq {
+            font-weight: 400;
+            line-height: 1.2125;
+            color: #000000;
+            font-family: Inter, 'Source Sans Pro';
+            white-space: nowrap;
+            flex-shrink: 0;
+            font-size: 1.5rem;
+          }
+        }
+        .auto-group-ltf1-HKX {
+          align-items: center;
+          width: 29.9rem;
+          height: 2.6rem;
+          position: absolute;
+          left: 4.6rem;
+          top: 24.6rem;
+          display: flex;
+
+          .chatbubble-zzd {
+            height: 2.4rem;
+            position: relative;
+            object-fit: contain;
+            vertical-align: top;
+            flex-shrink: 0;
+            margin: 0.2rem 0.6rem 0rem 0rem;
+            width: 2.4rem;
+          }
+          .no-reviews-WCH {
+            margin: 0rem 1rem 0.3rem 0rem;
+            cursor: pointer;
+            font-size: 1.2rem;
+            line-height: 1.2125;
+            color: #000000;
+            flex-shrink: 0;
+            font-weight: 400;
+            font-family: Inter, 'Source Sans Pro';
+            white-space: nowrap;
+          }
+          .monetizationon-Pms {
+            position: relative;
+            object-fit: contain;
+            vertical-align: top;
+            flex-shrink: 0;
+            margin: 0rem 0.6rem 0.2rem 0rem;
+            width: 2.4rem;
+            height: 2.4rem;
+          }
+          .k-30k-iJM {
+            color: #000000;
+            font-family: Inter, 'Source Sans Pro';
+            margin: 0rem 1.6rem 0.1rem 0rem;
+            cursor: pointer;
+            font-size: 1.2rem;
+            font-weight: 400;
+            line-height: 1.2125;
+            white-space: nowrap;
+            flex-shrink: 0;
+          }
+          .localdining-RTf {
+            flex-shrink: 0;
+            margin-right: 0.6rem;
+            width: 2.4rem;
+            height: 2.4rem;
+            position: relative;
+            object-fit: contain;
+            vertical-align: top;
+          }
+          .international-Ms7 {
+            margin-bottom: 0.1rem;
+            cursor: pointer;
+            line-height: 1.2125;
+            white-space: nowrap;
+            flex-shrink: 0;
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #000000;
+            font-family: Inter, 'Source Sans Pro';
+          }
+        }
+        .jokopi-cafe-surabaya-Gz5 {
+          left: 4rem;
+          font-weight: 400;
+          line-height: 0.8571428571;
+          color: #000000;
+          position: absolute;
+          height: 12rem;
+          top: 10.1rem;
+          font-size: 7rem;
+          font-family: Kanit, 'Source Sans Pro';
+          width: 44.7rem;
+        }
+        .photos-ydb {
+          height: 6rem;
+          left: 4.9rem;
+          line-height: 2;
+          color: #000000;
+          white-space: nowrap;
+          width: 11.8rem;
+          position: absolute;
+          top: 41.3rem;
+          font-size: 3rem;
+          font-weight: 400;
+          font-family: Kanit, 'Source Sans Pro';
+        }
+        .auto-group-dtat-5wX {
+          position: absolute;
+          left: 4rem;
+          top: 83.5rem;
+          width: 49.4rem;
+          height: 25.1rem;
+
+          .menu-atH {
+            height: 6rem;
+            font-size: 3rem;
+            color: #000000;
+            font-weight: 400;
+            line-height: 2;
+            font-family: Kanit, 'Source Sans Pro';
+            white-space: nowrap;
+            width: 7.4rem;
+            position: absolute;
+            left: 0;
+            top: 0;
+          }
+          .be-the-first-to-review-this-restaurant-uff {
+            line-height: 3;
+            font-family: Kanit, 'Source Sans Pro';
+            width: 31.7rem;
+            height: 6rem;
+            top: 10.9rem;
+            font-weight: 400;
+            color: #000000;
+            white-space: nowrap;
+            position: absolute;
+            left: 0.1rem;
+            font-size: 2rem;
+          }
+          .overall-rating-reviews-C8y {
+            line-height: 4;
+            width: 17rem;
+            height: 6rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            font-family: Kadwa, 'Source Sans Pro';
+            white-space: nowrap;
+            position: absolute;
+            left: 0.1rem;
+            top: 15.9rem;
+            color: #191717;
+          }
+          .reviews-can-only-be-made-by-diners-who-have-eaten-at-this-restaurant-UMP {
+            left: 0.1rem;
+            font-size: 1.5rem;
+            font-weight: 400;
+            line-height: 1.3333333333;
+            width: 37.9rem;
+            height: 4rem;
+            position: absolute;
+            top: 21.1rem;
+            color: #191717;
+            font-family: Kadwa, 'Source Sans Pro';
+          }
+          .line-1-wEy {
+            left: 0.1rem;
+            top: 6.8rem;
+            object-fit: contain;
+            vertical-align: top;
+            width: 49.3rem;
+            height: 0.1rem;
+            position: absolute;
+          }
+          .view-menu-on-restaurants-website-4Kb {
+            left: 3.2rem;
+            font-weight: 400;
+            text-decoration-line: underline;
+            color: #000000;
+            font-family: Inter, 'Source Sans Pro';
+            position: absolute;
+            height: 6rem;
+            top: 5.5rem;
+            font-size: 1.2rem;
+            line-height: 5;
+            white-space: nowrap;
+            width: 19.9rem;
+          }
+          .line-1-ub7 {
+            top: 17.3rem;
+            object-fit: contain;
+            vertical-align: top;
+            width: 49.3rem;
+            height: 0.1rem;
+            position: absolute;
+            left: 0.1rem;
+          }
+          .captiveportal-dn1 {
+            left: 0.4rem;
+            top: 7.3rem;
+            object-fit: contain;
+            vertical-align: top;
+            width: 2.4rem;
+            height: 2.4rem;
+            position: absolute;
+          }
+        }
+        .auto-group-puvz-kLq {
+          left: 4.4rem;
+          top: 109.9rem;
+          display: flex;
+          align-items: flex-end;
+          width: 27.1rem;
+          height: 2.4rem;
+          position: absolute;
+
+          .stars-UXj {
+            flex-shrink: 0;
+            margin-right: 0.9rem;
+            height: 100%;
+            display: flex;
+            align-items: center;
+
+            .starratehalf-p5o {
+              width: 2.4rem;
+              height: 2.4rem;
+              position: relative;
+              object-fit: contain;
+              vertical-align: top;
+              flex-shrink: 0;
+            }
+            .starratehalf-MbX {
+              margin-right: 0.1rem;
+              width: 2.4rem;
+              height: 2.4rem;
+              position: relative;
+              object-fit: contain;
+              vertical-align: top;
+              flex-shrink: 0;
+            }
+            .starratehalf-63K {
+              width: 2.4rem;
+              height: 2.4rem;
+              position: relative;
+              object-fit: contain;
+              vertical-align: top;
+              flex-shrink: 0;
+              margin-right: 0.4rem;
+            }
+            .starratehalf-EQR {
+              margin-right: 0.5rem;
+              width: 2.4rem;
+              height: 2.4rem;
+              position: relative;
+              object-fit: contain;
+              vertical-align: top;
+              flex-shrink: 0;
+            }
+            .starratehalf-BKf {
+              object-fit: contain;
+              vertical-align: top;
+              flex-shrink: 0;
+              width: 2.4rem;
+              height: 2.4rem;
+              position: relative;
+            }
+          }
+          .based-on-ratings-8Eu {
+            line-height: 1.3333333333;
+            color: #191717;
+            font-family: Kadwa, 'Source Sans Pro';
+            white-space: nowrap;
+            flex-shrink: 0;
+            font-size: 1.5rem;
+            font-weight: 400;
+          }
+        }
+        .line-1-variant2-rgh {
+          left: 4rem;
+          top: 9.1rem;
+          object-fit: contain;
+          vertical-align: top;
+          width: 50.2rem;
+          height: 0.1rem;
+          position: absolute;
+        }
+        .line-1-variant2-CEm {
+          width: 50.2rem;
+          height: 0.1rem;
+          position: absolute;
+          left: 4.6rem;
+          top: 48.1rem;
+          object-fit: contain;
+          vertical-align: top;
+        }
+        .auto-group-y5rv-Xnq {
+          display: flex;
+          align-items: flex-end;
+          width: 46.8rem;
+          height: 17.3rem;
+          position: absolute;
+          left: 6rem;
+          top: 49.3rem;
+
+          .snapinsta-1-fPF {
+            margin-right: 1.7rem;
+            width: 16.7rem;
+            height: 16.9rem;
+            object-fit: cover;
+            vertical-align: top;
+            flex-shrink: 0;
+          }
+          .snapinsta-zwK {
+            height: 17.2rem;
+            object-fit: cover;
+            vertical-align: top;
+            flex-shrink: 0;
+            margin-bottom: 0.1rem;
+            width: 28.4rem;
+          }
+        }
+        .auto-group-vkqd-LVP {
+          display: flex;
+          align-items: flex-start;
+          width: 46.7rem;
+          height: 13.6272rem;
+          position: absolute;
+          left: 6.1rem;
+          top: 67.7rem;
+
+          .snapinsta-5C5 {
+            margin-right: 1.8rem;
+            width: 16.5rem;
+            height: 13.1rem;
+            object-fit: cover;
+            vertical-align: top;
+            flex-shrink: 0;
+          }
+          .auto-group-apqv-DJH {
+            width: 28.4rem;
+            height: 100%;
+            position: relative;
+            flex-shrink: 0;
+
+            .snapinsta-mah {
+              top: 0;
+              object-fit: cover;
+              vertical-align: top;
+              width: 28.4rem;
+              height: 13.1rem;
+              position: absolute;
+              left: 0;
+            }
+            .grade-iF3 {
+              left: 12.8627rem;
+              top: 11.2272rem;
+              object-fit: contain;
+              vertical-align: top;
+              width: 2.4rem;
+              height: 2.4rem;
+              position: absolute;
+            }
+          }
+        }
+        .for-reservation-of-10-guests-and-more-please-contact-62812-3351-8156-or-62-8123-454-6298get-fancy-in-luxury-dining-at-the-award-winning-restaurant-magnolia-overlooking-the-cityscape-of-surabaya-the-restaurant-serves-international-favorites-cuisines-such-as-meat-carvings-and-ocean-fresh-seafood-and-curated-health-and-well-being-in-mind-with-its-refined-urban-vibe-and-open-plan-kitchen-this-venue-celebrates-the-universally-cherished-pleasures-of-good-times-and-occasions-2Wd {
+          width: 45rem;
+          line-height: 1.2125;
+          color: #000000;
+          font-size: 1.2rem;
+          font-weight: 400;
+          font-family: Inter, 'Source Sans Pro';
+          height: 10.2rem;
+          position: absolute;
+          left: 3.2rem;
+          top: 28.9rem;
+        }
+        .auto-group-78kd-w1K {
+          width: 41.7rem;
+          height: 12.2rem;
+          position: absolute;
+          left: 3.7rem;
+          top: 114.3rem;
+          display: flex;
+          align-items: flex-start;
+
+          .auto-group-cdlf-F21 {
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            margin: 0.3rem 2.1rem 0rem 0rem;
+            width: 20.3rem;
+            align-items: center;
+
+            .auto-group-j9ek-N6d {
+              box-sizing: border-box;
+              padding-bottom: 1.1rem;
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              flex-shrink: 0;
+
+              .services-checklistpoint-usF {
+                margin: 0rem 2.1rem 1.1rem 0rem;
+                width: calc(100% - 2.1rem);
+                display: flex;
+                align-items: flex-start;
+                flex-shrink: 0;
+
+                .checklist-EuX {
+                  vertical-align: top;
+                  flex-shrink: 0;
+                  margin-right: 0.3rem;
+                  width: 1.9rem;
+                  height: 1.9rem;
+                  object-fit: cover;
+                }
+                .cleaning-sanitizing-YvD {
+                  white-space: nowrap;
+                  flex-shrink: 0;
+                  font-size: 1.8rem;
+                  font-weight: 400;
+                  line-height: 1.1111111111;
+                  color: #000000;
+                  font-family: Inria Sans, 'Source Sans Pro';
+                }
+              }
+              .services-checklistpoint-TXP {
+                margin-right: 10rem;
+                width: calc(100% - 10rem);
+                display: flex;
+                align-items: flex-start;
+                flex-shrink: 0;
+
+                .checklist-o5T {
+                  flex-shrink: 0;
+                  margin-right: 0.7rem;
+                  width: 1.9rem;
+                  height: 1.9rem;
+                  object-fit: cover;
+                  vertical-align: top;
+                }
+                .screening-vfs {
+                  color: #000000;
+                  font-family: Inria Sans, 'Source Sans Pro';
+                  white-space: nowrap;
+                  flex-shrink: 0;
+                  font-size: 1.8rem;
+                  font-weight: 400;
+                  line-height: 1.1111111111;
+                }
+              }
+            }
+            .services-checklistpoint-GDw {
+              width: 100%;
+              display: flex;
+              align-items: flex-start;
+              flex-shrink: 0;
+
+              .checklist-RMj {
+                margin-right: 0.5rem;
+                width: 1.9rem;
+                height: 1.9rem;
+                object-fit: cover;
+                vertical-align: top;
+                flex-shrink: 0;
+              }
+              .sick-staff-prohibited-in-workplace-9oX {
+                max-width: 17.9rem;
+                font-size: 1.8rem;
+                font-weight: 400;
+                line-height: 1.1111111111;
+                color: #000000;
+                font-family: Inria Sans, 'Source Sans Pro';
+                flex-shrink: 0;
+              }
+            }
+          }
+          .auto-group-bxsf-sDj {
+            flex-direction: column;
+            flex-shrink: 0;
+            width: 19.3rem;
+            height: 100%;
+            row-gap: 1.1rem;
+            display: flex;
+
+            .services-checklistpoint-ot5 {
+              margin-right: 1.2rem;
+              width: calc(100% - 1.2rem);
+              display: flex;
+              align-items: flex-start;
+              flex-shrink: 0;
+
+              .checklist-xFB {
+                object-fit: cover;
+                vertical-align: top;
+                flex-shrink: 0;
+                margin: 0.2rem 0.6rem 0rem 0rem;
+                width: 1.9rem;
+                height: 1.9rem;
+              }
+              .contacless-payment-available-Gmf {
+                font-family: Inria Sans, 'Source Sans Pro';
+                flex-shrink: 0;
+                max-width: 15.6rem;
+                font-size: 1.8rem;
+                font-weight: 400;
+                line-height: 1.1111111111;
+                color: #000000;
+              }
+            }
+            .services-checklistpoint-PrH {
+              width: 100%;
+              display: flex;
+              align-items: flex-start;
+              flex-shrink: 0;
+
+              .checklist-9Kf {
+                width: 1.9rem;
+                height: 1.9rem;
+                object-fit: cover;
+                vertical-align: top;
+                flex-shrink: 0;
+                margin-right: 0.6rem;
+              }
+              .commond-areas-deep-cleaned-daily-Usj {
+                flex-shrink: 0;
+                max-width: 16.8rem;
+                font-size: 1.8rem;
+                font-weight: 400;
+                line-height: 1.1111111111;
+                color: #000000;
+                font-family: Inria Sans, 'Source Sans Pro';
+              }
+            }
+            .services-checklistpoint-D4d {
+              margin-right: 4.5rem;
+              width: calc(100% - 4.5rem);
+              display: flex;
+              align-items: flex-start;
+              flex-shrink: 0;
+
+              .checklist-AEm {
+                height: 1.9rem;
+                object-fit: cover;
+                vertical-align: top;
+                flex-shrink: 0;
+                margin-right: 0.3rem;
+                width: 1.9rem;
+              }
+              .staff-vaccinated-W3j {
+                font-size: 1.8rem;
+                font-weight: 400;
+                line-height: 1.1111111111;
+                color: #000000;
+                font-family: Inria Sans, 'Source Sans Pro';
+                white-space: nowrap;
+                flex-shrink: 0;
+              }
+            }
+          }
+        }
+      }
+      .auto-group-gzck-yxu {
+        flex-direction: column;
+        width: 41rem;
+        height: 24.3rem;
+        position: absolute;
+        left: 66.6rem;
+        top: 1.8rem;
+        align-items: center;
+        display: flex;
+
+        .auto-group-g3tr-6Xj {
+          display: flex;
+          flex-direction: column;
+          flex-shrink: 0;
+          box-sizing: border-box;
+          padding: 0rem 0rem 0.4rem 3.7rem;
+          width: 100%;
+          align-items: center;
+
+          .make-reservations-pCq {
+            font-size: 3rem;
+            font-weight: 400;
+            line-height: 2;
+            color: #000000;
+            font-family: Kanit, 'Source Sans Pro';
+            white-space: nowrap;
+            flex-shrink: 0;
+            margin-right: 3.3rem;
+          }
+          .line-1-variant2-x49 {
+            flex-shrink: 0;
+            width: 37.3rem;
+            height: 0.1rem;
+            object-fit: contain;
+            vertical-align: top;
+          }
+        }
+        .auto-group-ppx3-tTb {
+          width: 100%;
+          height: 8.9rem;
+          position: relative;
+          flex-shrink: 0;
+
+          .party-size-3LV {
+            width: 7.9rem;
+            height: 6rem;
+            position: absolute;
+            font-weight: 400;
+            font-family: Kanit, 'Source Sans Pro';
+            white-space: nowrap;
+            left: 0;
+            top: 0;
+            font-size: 1.8rem;
+            line-height: 3.3333333333;
+            color: #000000;
+          }
+          .people-AR7 {
+            color: rgba(0, 0, 0, 0.5);
+            font-family: Kanit, 'Source Sans Pro';
+            width: 4.7rem;
+            height: 6rem;
+            left: 0;
+            font-size: 1.2rem;
+            font-weight: 400;
+            line-height: 5;
+            position: absolute;
+            top: 2.9rem;
+            white-space: nowrap;
+          }
+          .line-2-saR {
+            width: 41rem;
+            height: 0.1rem;
+            position: absolute;
+            left: 0;
+            top: 7.7rem;
+            background-color: rgba(100, 100, 100, 0.400000006);
+          }
+        }
+        .auto-group-ryt3-C6u {
+          width: 100%;
+          height: 8.9rem;
+          display: flex;
+          align-items: center;
+          flex-shrink: 0;
+
+          .auto-group-kew5-Lyo {
+            margin-right: 6.6rem;
+            width: 13.9rem;
+            height: 100%;
+            position: relative;
+            flex-shrink: 0;
+
+            .date-Vbo {
+              width: 3.8rem;
+              position: absolute;
+              left: 0;
+              font-size: 1.8rem;
+              color: #000000;
+              white-space: nowrap;
+              height: 6rem;
+              top: 0;
+              font-weight: 400;
+              line-height: 3.3333333333;
+              font-family: Kanit, 'Source Sans Pro';
+            }
+            .nov-52023-pe5 {
+              line-height: 5;
+              font-family: Kanit, 'Source Sans Pro';
+              white-space: nowrap;
+              width: 5.9rem;
+              left: 0;
+              font-weight: 400;
+              font-size: 1.2rem;
+              color: rgba(0, 0, 0, 0.5);
+              height: 6rem;
+              position: absolute;
+              top: 2.9rem;
+            }
+            .line-3-k1w {
+              width: 13.9rem;
+              height: 0;
+              position: absolute;
+              left: 0;
+              top: 7.65rem;
+              object-fit: contain;
+              vertical-align: top;
+            }
+            .arrowforwardios-5pu {
+              width: 2.4158rem;
+              height: 2.4158rem;
+              position: absolute;
+              left: 10.8rem;
+              top: 4.8rem;
+              object-fit: contain;
+              vertical-align: top;
+            }
+          }
+          .auto-group-mpns-DAR {
+            width: 20.5rem;
+            height: 100%;
+            position: relative;
+            flex-shrink: 0;
+
+            .time-xdo {
+              line-height: 3.3333333333;
+              color: #000000;
+              font-family: Kanit, 'Source Sans Pro';
+              width: 4rem;
+              height: 6rem;
+              position: absolute;
+              left: 0;
+              top: 0;
+              font-size: 1.8rem;
+              font-weight: 400;
+              white-space: nowrap;
+            }
+            .pm-V7w {
+              color: rgba(0, 0, 0, 0.5);
+              font-family: Kanit, 'Source Sans Pro';
+              white-space: nowrap;
+              width: 4.2rem;
+              position: absolute;
+              top: 2.9rem;
+              font-size: 1.2rem;
+              font-weight: 400;
+              height: 6rem;
+              left: 0;
+              line-height: 5;
+            }
+            .line-4-nsj {
+              left: 0;
+              top: 7.7rem;
+              object-fit: contain;
+              vertical-align: top;
+              width: 20.5rem;
+              height: 0;
+              position: absolute;
+            }
+          }
+        }
+      }
+      .line-1-variant2-L8Z {
+        vertical-align: top;
+        width: 50.2rem;
+        height: 0;
+        position: absolute;
+        left: 4rem;
+        top: 23.4rem;
+        object-fit: contain;
+      }
+    }
+    .find-button-sPP {
+      line-height: 1.2;
+      height: 6.8rem;
+      font-weight: 400;
+      font-family: Kanit, 'Source Sans Pro';
+      align-items: center;
+      border-radius: 3rem;
+      font-size: 5rem;
+      color: #ffffff;
+      top: 57rem;
+      display: flex;
+      justify-content: center;
+      background-color: #e88529;
+      width: 39.5rem;
+      left: 86.8rem;
+      position: absolute;
+      white-space: nowrap;
+    }
+    .arrowforwardios-8q7 {
+      position: absolute;
+      left: 124rem;
+      top: 51.2rem;
+      object-fit: contain;
+      vertical-align: top;
+      width: 2.4158rem;
+      height: 2.4158rem;
+    }
+    .arrowforwardios-TsP {
+      width: 2.4158rem;
+      height: 2.4158rem;
+      position: absolute;
+      left: 124rem;
+      top: 41.3rem;
+      object-fit: contain;
+      vertical-align: top;
+    }
   }
-  .rectangle-1-NC8 {
-    border-radius: 1.8rem;
-    width: 54.1rem;
-    height: 62.2rem;
-    position: absolute;
-    left: 25.1rem;
-    top: 32.3rem;
-    box-shadow: 0.8rem 0.4rem 0.4rem rgba(187, 143, 31, 0.6100000143);
-    background-color: #ffffff;
-  }
-  .overview-MyA {
-    height: 1.9rem;
-    position: absolute;
-    left: 28.4rem;
-    top: 35.1rem;
-    color: #000000;
-    width: 6.7rem;
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 1.2125;
-    font-family: Inter, 'Source Sans Pro';
-    white-space: nowrap;
-  }
-  .menu-Cit {
-    font-weight: 400;
-    line-height: 1.2125;
-    white-space: nowrap;
-    width: 4rem;
-    left: 38.3rem;
-    font-size: 1.5rem;
-    color: #000000;
-    font-family: Inter, 'Source Sans Pro';
-    height: 1.9rem;
-    position: absolute;
-    top: 35.1rem;
-  }
-  .reviews-hQk {
-    left: 46.2rem;
-    line-height: 1.2125;
-    color: #000000;
-    white-space: nowrap;
-    width: 5.9rem;
-    height: 1.9rem;
-    font-size: 1.5rem;
-    font-weight: 400;
-    font-family: Inter, 'Source Sans Pro';
-    position: absolute;
-    top: 35.1rem;
-  }
-  .jokopi-cafe-surabaya-c1v {
-    font-weight: 400;
-    line-height: 1.2;
-    color: #000000;
-    font-family: Katibeh, 'Source Sans Pro';
-    width: 30.3rem;
-    position: absolute;
-    left: 28.4rem;
-    top: 40.7rem;
-    height: 4.8rem;
-    font-size: 4rem;
-    white-space: nowrap;
-  }
-  .line-1-variant2-fVz {
-    top: 47.2rem;
-    object-fit: contain;
-    vertical-align: top;
-    width: 50.2rem;
-    height: 0;
-    position: absolute;
-    left: 27.4rem;
-  }
-  .line-1-variant2-PB6 {
-    left: 26.9rem;
-    top: 38.3rem;
-    object-fit: contain;
-    vertical-align: top;
-    width: 50.2rem;
-    height: 0.1rem;
-    position: absolute;
-  }
-  .line-1-variant2-ufE {
-    top: 87.5rem;
-    object-fit: contain;
-    vertical-align: top;
-    width: 50.2rem;
-    height: 0.1rem;
-    position: absolute;
-    left: 27.5rem;
+  .rectangle-2-yaq {
+    flex-shrink: 0;
+    margin: 0rem 0rem 37.5rem 82.7rem;
+    width: 263.6rem;
+    height: 48.4rem;
+    background-color: #d9d9d9;
   }
 }
