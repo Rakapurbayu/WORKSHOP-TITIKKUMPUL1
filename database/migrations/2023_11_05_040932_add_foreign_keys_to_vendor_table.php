@@ -8,23 +8,25 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
+     *
+     * @return void
      */
-    public function up(): void
+    public function up()
     {
         Schema::table('vendor', function (Blueprint $table) {
-            $table->unsignedBigInteger('id_restoran');
-            $table->foreign('id_restoran')->references('id')->on('vendor');
+            $table->foreign(['ID_USER'], 'FK_VENDOR_INHERITAN_USER')->references(['ID_USER'])->on('user');
         });
     }
 
     /**
      * Reverse the migrations.
+     *
+     * @return void
      */
-    public function down(): void
+    public function down()
     {
         Schema::table('vendor', function (Blueprint $table) {
-            $table->foreignId('vendor_restoran_id_foreign');
-            $table->dropForeign('vendor_restoran_id_foreign');
+            $table->dropForeign('FK_VENDOR_INHERITAN_USER');
         });
     }
 };

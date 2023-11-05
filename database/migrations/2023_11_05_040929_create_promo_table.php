@@ -8,22 +8,26 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
+     *
+     * @return void
      */
-    public function up(): void
+    public function up()
     {
         Schema::create('promo', function (Blueprint $table) {
-            $table->id();
-            $table->date('created_at');
-            $table->date('end_at');
-            $table->string('nama_promo', 20);
-            $table->string('desc_promo', 100);
+            $table->string('ID_PROMO', 8)->primary();
+            $table->string('ID_RESERVASI', 10)->nullable();
+            $table->string('NAMA_PROMO', 30);
+            $table->string('DESKRIPSI_PROMO', 500);
+            $table->timestamp('TANGGAL_PROMO');
         });
     }
 
     /**
      * Reverse the migrations.
+     *
+     * @return void
      */
-    public function down(): void
+    public function down()
     {
         Schema::dropIfExists('promo');
     }
