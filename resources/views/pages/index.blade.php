@@ -19,54 +19,12 @@
                     </h1>
                     <form action="#" class="narrow-w form-search d-flex align-items-stretch mb-3" data-aos="fade-up"
                         data-aos-delay="200">
-                        <input type="date" class="form-control px-4" placeholder="Book Date" />
+                        <input type="date" class="form-control px-4" id="dateInput" placeholder="Tanggal" />
                         <input type="time" class="form-control px-4" placeholder="Jam" />
                         <input type="number" class="form-control px-4" placeholder="Jumlah Orang" min="1" max="50" />
                         <input type="text" class="form-control px-4" placeholder="Dimanakah tempat kumpul mu?" />
                         <button type="submit" class="btn btn-primary">Cari</button>
                     </form>
-                    <!-- Booking start
-                    <div class="additional-features narrow-w form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="250">
-                        <input type="date" class="form-control px-4" placeholder="Book Date" />
-                        <input type="time" class="form-control px-4" placeholder="Jam" />
-                        <input type="number" class="form-control px-4" placeholder="Jumlah Orang" min="1" max="50" />
-                    </div>
-                    Booking End -->
-                    <!-- Booking Start
-            <div class="container">
-                    <div class="row g-2">
-                        <div class="col-md-10">
-                            <div class="row g-2">
-                                <div class="col-md-3">
-                                    <div class="date" id="date1" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input"
-                                            placeholder="Check in" data-target="#date1" data-toggle="datetimepicker" />
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="date" id="date2" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" placeholder="Check out" data-target="#date2" data-toggle="datetimepicker"/>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <select class="form-select">
-                                        <option selected>Jumlah Orang</option>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                        <option value="7">7</option>
-                                        <option value="8">8</option>
-                                        <option value="9">9</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        Booking End -->
                 </div>
             </div>
         </div>
