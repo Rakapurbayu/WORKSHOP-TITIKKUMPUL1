@@ -12,14 +12,8 @@ class LoginController extends Controller
      *
      * @return \Illuminate\View\View
      */
-    public function Register()
+    public function Login()
     {
         return view('pages.login.login',['title' => 'Login']);
     }
-
-    public function Login()
-    {
-        return view('pages.login.signup',['title' => 'Register']);
-    }
-
 }

@@ -14,12 +14,6 @@ class RegisterController extends Controller
      */
     public function Register()
     {
-        return view('pages.login.login',['title' => 'Login']);
+        return view('pages.login.signup', ['title' => 'Register']);
     }
-
-    public function Login()
-    {
-        return view('pages.login.signup',['title' => 'Register']);
-    }
-
 }
