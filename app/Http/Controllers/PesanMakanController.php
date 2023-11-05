@@ -15,6 +15,6 @@ class PesanMakanController extends Controller
      */
     public function PesanMakan()
     {
-        return view('pages.makan',['title' => 'Pesan Makan']);
+        return view('pages.pemesanan.makan',['title' => 'Pesan Makan']);
     }
 }
