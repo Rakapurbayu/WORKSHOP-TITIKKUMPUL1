@@ -72,7 +72,7 @@
                             <!-- .item -->
 
                             <div class="property-item">
-                                <a href="{{ route('JokopiVendor') }}" class="img">
+                                <a href="{{ route('Jokopi') }}" class="img">
                                     <img src="images/img_2.jpeg" alt="Image" class="img-fluid" />
                                 </a>
 
@@ -86,7 +86,7 @@
                                             <a href="property-single.html" class="btn btn-primary py-2 px-3">See Menu</a>
                                         </div>
 
-                                        <a href="{{ route('JokopiVendor') }}" class="btn btn-primary py-2 px-3">See details</a>
+                                        <a href="{{ route('Jokopi') }}" class="btn btn-primary py-2 px-3">See details</a>
                                     </div>
                                 </div>
                             </div>

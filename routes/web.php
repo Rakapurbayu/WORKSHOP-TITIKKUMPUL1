@@ -9,6 +9,7 @@ use App\Http\Controllers\PesanMakanController;
 use App\Http\Controllers\JokopiController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\ListPemesananController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -33,6 +34,8 @@ Route::get('/register', [RegisterController::class, 'register'])->name('Register
 
 Route::get('/home', [IndexController::class, 'home'])->name('home');
 
+Route::get('/pesanansaya', [ListPemesananController::class, 'ListPemesanan'])->name('ListPemesanan');
+
 
 Route::get('/pesan', [PesanNongkrongController::class, 'PesanNongkrong'])->name('PesanNongkrong');
 
@@ -49,5 +52,6 @@ Route::get('/makan', [PesanMakanController::class, 'PesanMakan'])->name('PesanMa
 Route::get('/vendor', [PesanMakanController::class, 'Vendor'])->name('DetailsVendor');
 
 
-Route::get('/jokopi', [JokopiController::class, 'JokopiVendor'])->name('JokopiVendor');
+Route::get('/jokopi', [JokopiController::class, 'Jokopi'])->name('Jokopi');
+Route::post('/jokopi', [JokopiController::class, 'Form'])->name('Jokopi');
 
