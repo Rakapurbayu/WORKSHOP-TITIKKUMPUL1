@@ -150,7 +150,7 @@
       <img class="line-1-variant2-L8Z" src="REPLACE_IMAGE:4:5"/>
     </div>
     <div class="find-button-sPP">
-        <a href="URL example route" style="color: #FFFAFA;">Reservasi</a>
+        <a href="{{ route('Login') }}" style="color: #FFFAFA;">Reservasi</a>
     </div>
   </div>
 </div>
