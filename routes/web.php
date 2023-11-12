@@ -7,8 +7,7 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\PesanNongkrongController;
 use App\Http\Controllers\PesanMakanController;
 use App\Http\Controllers\JokopiController;
-use App\Http\Controllers\LoginController;
-use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ListPemesananController;
 /*
 |--------------------------------------------------------------------------
@@ -25,33 +24,19 @@ Route::get('/', function () {
     return view('pages.index');
 });
 
-
-Route::get('/login', [LoginController::class, 'login'])->name('Login');
-
-
-Route::get('/register', [RegisterController::class, 'register'])->name('Register');
-
+Route::get('/login', [AuthController::class, 'login'])->name('login');
+Route::post('/login', [AuthController::class, 'loginForm'])->name('login.form');
+Route::get('/register', [AuthController::class, 'register'])->name('register');
+Route::post('/register', [AuthController::class, 'registerForm'])->name('register.form');
+Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::get('/home', [IndexController::class, 'home'])->name('home');
-
 Route::get('/pesanansaya', [ListPemesananController::class, 'ListPemesanan'])->name('ListPemesanan');
-
-
 Route::get('/pesan', [PesanNongkrongController::class, 'PesanNongkrong'])->name('PesanNongkrong');
-
-
 Route::get('/about', [AboutController::class, 'TentangKami'])->name('TentangKami');
-
-
 Route::get('/contact', [ContactController::class, 'KontakKami'])->name('KontakKami');
-
-
 Route::get('/makan', [PesanMakanController::class, 'PesanMakan'])->name('PesanMakan');
-
-
 Route::get('/vendor', [PesanMakanController::class, 'Vendor'])->name('DetailsVendor');
-
-
 Route::get('/jokopi', [JokopiController::class, 'Jokopi'])->name('Jokopi');
 Route::post('/jokopi', [JokopiController::class, 'Form'])->name('Jokopi');
 

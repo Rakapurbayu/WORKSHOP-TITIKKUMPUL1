@@ -20,16 +20,19 @@
                 </li>
                 <li><a href="{{ route('TentangKami') }}">Tentang Kami</a></li>
                 <li><a href="{{ route('KontakKami') }}">Kontak kami</a></li>
+                @auth
                 <li class="has-children">
                     <a>Akun</a>
                     <ul class="dropdown">
                         <li><a href="{{ route('PesanNongkrong') }}">Profile</a></li>
                         <li><a href="{{ route('ListPemesanan') }}">Pesanan Saya</a></li>
-                        <ul class="dropdown">
-                            <li><a href="#">Sub Menu One</a></li>
-                            <li><a href="#">Sub Menu Two</a></li>
-                        </ul>
-                </li>                </ul>
+                        <li><a href="{{ route('logout') }}">Logout</a></li>
+                    </ul>
+                </li>
+                @else
+                <li><a href="{{ route('login') }}">Login</a></li>
+                @endauth
+                </ul>
 
                 <a href="#"
                     class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
