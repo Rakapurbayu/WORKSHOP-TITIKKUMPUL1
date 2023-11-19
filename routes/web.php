@@ -9,6 +9,8 @@ use App\Http\Controllers\PesanMakanController;
 use App\Http\Controllers\JokopiController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ListPemesananController;
+use App\Http\Controllers\ReservationController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes

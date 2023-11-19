@@ -21,4 +21,8 @@ class User extends Authenticatable
     protected $casts = ['email_verified_at' => 'datetime', 'password' => 'hashed',];
     public $timestamps = false;
 
+    public function reservasi()
+    {
+        return $this->hasMany(Reservasi::class, 'ID_USER');
+    }
 }

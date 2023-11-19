@@ -146,7 +146,7 @@
                                 <div class="narrow-w form-search d-flex align-items-stretch mb-3" data-aos="fade-up"
                                     data-aos-delay="200">
                                     <input name="jumlah_orang" type="number" class="form-control px-4" placeholder="Jumlah Orang"
-                                        min="1" max="50" />
+                                        min="1" max="10" />
                                 </div>
                                 <div class="line-2-saR">
                                 </div>

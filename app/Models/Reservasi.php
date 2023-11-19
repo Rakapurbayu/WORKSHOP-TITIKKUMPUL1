@@ -7,9 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class Reservasi extends Model
 {
     protected $table = 'reservasi';
-    protected $primaryKey = 'ID_RESERVASI';
     public $timestamps = false;
-
+    public $incrementing = true;
     protected $fillable = [
         'id_promo',
         'id_restoran',
@@ -17,6 +16,10 @@ class Reservasi extends Model
         'jumlah_orang',
         'tanggal',
         'jam',
-        // Kolom lain yang Anda inginkan di sini
     ];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class, 'ID_USER');
+    }
 }

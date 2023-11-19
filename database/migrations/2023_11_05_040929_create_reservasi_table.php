@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('reservasi', function (Blueprint $table) {
-            $table->string('ID_RESERVASI', 10)->primary();
+            $table->id('ID_RESERVASI'); // This creates an auto-incrementing primary key
             $table->string('ID_USER', 8)->index('FK_RESERVAS_RELATIONS_USER');
             $table->string('ID_PROMO', 8)->nullable()->index('FK_RESERVAS_RELATIONS_PROMO');
             $table->string('ID_RESTORAN', 8)->nullable()->index('FK_RESERVAS_RELATIONS_RESTORAN');
