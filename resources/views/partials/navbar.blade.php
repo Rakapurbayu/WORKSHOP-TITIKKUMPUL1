@@ -7,13 +7,12 @@
                 <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
                     <li class="active"><a href="{{ route('home') }}">Home</a></li>
                     <li class="has-children">
-                        <a>PesanNongkrong</a>
+                        <a>Kumpul</a>
                         <ul class="dropdown">
                             <li><a href="{{ route('PesanNongkrong') }}">Pesan Tempat</a></li>
                             <li><a href="{{ route('PesanMakan') }}">Pesan Makan</a></li>
                             <ul class="dropdown">
-                                <li><a href="#">Sub Menu One</a></li>
-                                <li><a href="#">Sub Menu Two</a></li>
+                               
                             </ul>
                     </li>
                 </ul>
