@@ -39,6 +39,6 @@ Route::get('/about', [AboutController::class, 'TentangKami'])->name('TentangKami
 Route::get('/contact', [ContactController::class, 'KontakKami'])->name('KontakKami');
 Route::get('/makan', [PesanMakanController::class, 'PesanMakan'])->name('PesanMakan');
 Route::get('/vendor', [PesanMakanController::class, 'Vendor'])->name('DetailsVendor');
-Route::get('/jokopi', [JokopiController::class, 'Jokopi'])->name('Jokopi');
-Route::post('/jokopi', [JokopiController::class, 'Form'])->name('Jokopi');
 
+
+Route::resource('/jokopi', JokopiController::class)->middleware('auth');
