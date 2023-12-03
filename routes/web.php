@@ -26,12 +26,14 @@ Route::get('/', function () {
     return view('pages.index');
 });
 
+// Definisi route untuk auth
 Route::get('/login', [AuthController::class, 'login'])->name('login');
 Route::post('/login', [AuthController::class, 'loginForm'])->name('login.form');
 Route::get('/register', [AuthController::class, 'register'])->name('register');
 Route::post('/register', [AuthController::class, 'registerForm'])->name('register.form');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
+// Route untuk halaman-halaman tertentu
 Route::get('/home', [IndexController::class, 'home'])->name('home');
 Route::get('/pesanansaya', [ListPemesananController::class, 'ListPemesanan'])->name('ListPemesanan');
 Route::get('/pesan', [PesanNongkrongController::class, 'PesanNongkrong'])->name('PesanNongkrong');
@@ -40,5 +42,6 @@ Route::get('/contact', [ContactController::class, 'KontakKami'])->name('KontakKa
 Route::get('/makan', [PesanMakanController::class, 'PesanMakan'])->name('PesanMakan');
 Route::get('/vendor', [PesanMakanController::class, 'Vendor'])->name('DetailsVendor');
 
+// Hanya menggunakan Route::resource untuk JokopiController
 
 Route::resource('/jokopi', JokopiController::class)->middleware('auth');
