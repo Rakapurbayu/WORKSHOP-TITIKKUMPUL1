@@ -15,7 +15,7 @@ class JokopiController extends Controller
         return view('pages.jokopi', ['title' => "Jokopi"]);
     }
 
-    public function create()
+    public function create(Request $request)
 {
 
     $request->validate([
@@ -53,7 +53,7 @@ class JokopiController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(examp $examp)
+    public function show(examp $request)
     {
         //
     }
@@ -61,7 +61,7 @@ class JokopiController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(examp $examp)
+    public function edit(examp $request)
     {
         //
     }
