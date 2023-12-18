@@ -42,3 +42,4 @@ Route::get('/vendor', [PesanMakanController::class, 'Vendor'])->name('DetailsVen
 Route::get('/jokopi', [JokopiController::class, 'Jokopi'])->name('Jokopi');
 Route::post('/jokopi', [JokopiController::class, 'Form'])->name('Jokopi');
 
+Route::get('/jokopi/invoice/{id}', [JokopiController::class, 'showInvoice'])->name('invoice.show');
