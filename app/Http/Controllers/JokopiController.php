@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+
 use App\Models\Reservasi;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
@@ -18,27 +19,7 @@ class JokopiController extends Controller
     public function create(Request $request)
 {
 
-    $request->validate([
-        'jumlah_orang' => 'required|numeric|min:1',
-        'tanggal' => 'required|date',
-        'jam' => 'required',
-    ]);
-
-    try {
-        $data = new Reservasi();
-        $data->ID_USER = Auth::id();
-        $data->JUMLAH_ORANG = $request->input('jumlah_orang');
-        $data->TANGGAL_RESERVASI = $request->input('tanggal');
-        $data->WAKTU_RESERVASI = $request->input('jam');
-        $data->save();
-
-        return redirect()->route('ListPemesanan')->with('success', 'Reservasi berhasil');
-        } catch (\Exception $e) {
-            // Log the exception for further investigation
-            \Log::error($e);
-
-            return redirect()->route('ListPemesanan')->with('error', 'Terjadi kesalahan. Mohon coba lagi.');
-        }
+   
     }
 
 
@@ -47,7 +28,32 @@ class JokopiController extends Controller
      */
     public function store(Request $request)
     {
-        return $request;
+        
+    
+        try {
+            $request->validate([
+                'JUMLAH_ORANG' => 'required|numeric|min:1',
+                'TANGGAL_RESERVASI' => 'required|date',
+                'WAKTU_RESERVASI' => 'required',
+            ]);
+
+            $data = new Reservasi();
+            $data->ID_USER = AUTH::id();
+            $data->JUMLAH_ORANG = $request->input('JUMLAH_ORANG');
+            $data->TANGGAL_RESERVASI = $request->input('TANGGAL_RESERVASI');
+            $data->WAKTU_RESERVASI = $request->input('WAKTU_RESERVASI');
+           $tes =  $data->save();
+            
+           dd($tes);
+            return redirect()->route('ListPemesanan')->with('success', 'Reservasi berhasil');
+            } catch (\Exception $e) {
+                // Log the exception for further investigation
+                \Log::error($e);
+    
+                return view('peges.jokopi',['error'=>$e->getMessage()]);
+            }
+
+    
     }
 
     /**

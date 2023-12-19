@@ -13,6 +13,25 @@ class AuthenticateReservation
             return $next($request);
         }
 
-        return redirect(route('login'))->with('error', 'Anda harus login untuk melakukan reservasi.');
+        return redirect(route('login'))->withErrors('error', 'Anda harus login untuk melakukan reservasi.');
     }
 }
+
+// class CheckUID
+// {
+//     public function handle($request, Closure $next)
+//     {
+//         // Memeriksa apakah pengguna sudah login
+//         if (Auth::check()) {
+//             $user = Auth::user();
+
+//             // Memeriksa apakah UID pengguna cocok dengan UID yang diizinkan
+//             if ($user->UID === 1) {
+//                 return $next($request);
+//             }
+//         }
+
+//         // Jika UID tidak sesuai, mungkin akan diarahkan ke halaman lain atau pesan kesalahan
+//         return redirect('/jokopi');
+//     }
+// }

@@ -35,7 +35,7 @@ Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
 // Route untuk halaman-halaman tertentu
 Route::get('/home', [IndexController::class, 'home'])->name('home');
-Route::get('/pesanansaya', [ListPemesananController::class, 'ListPemesanan'])->name('ListPemesanan');
+Route::get('/pesanansaya', [ListPemesananController::class, 'ListPemesanan'])->name('ListPemesanan')->Middleware('AuthenticateReservation');
 Route::get('/pesan', [PesanNongkrongController::class, 'PesanNongkrong'])->name('PesanNongkrong');
 Route::get('/about', [AboutController::class, 'TentangKami'])->name('TentangKami');
 Route::get('/contact', [ContactController::class, 'KontakKami'])->name('KontakKami');
@@ -43,5 +43,10 @@ Route::get('/makan', [PesanMakanController::class, 'PesanMakan'])->name('PesanMa
 Route::get('/vendor', [PesanMakanController::class, 'Vendor'])->name('DetailsVendor');
 
 // Hanya menggunakan Route::resource untuk JokopiController
+Route::get('/jokopi',[JokopiController::class,'index'])->name('jokopi.index');
+Route::post('/jokopi/pesanansaya',[JokopiController::class,'store'])->name('jokopi.store');
 
-Route::resource('/jokopi', JokopiController::class)->middleware('auth');
+// Route::group(['AuthenticateReservation' => 'check.uid'], function () {
+//     // Rute yang memerlukan otorisasi berdasarkan UID
+//     Route::get('/pesanansaya', 'JokopiController@method');
+// });

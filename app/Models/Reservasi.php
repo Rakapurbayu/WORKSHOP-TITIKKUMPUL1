@@ -7,15 +7,15 @@ use Illuminate\Database\Eloquent\Model;
 class Reservasi extends Model
 {
     protected $table = 'reservasi';
-    public $timestamps = true;
+    public $timestamps = false;
     public $incrementing = true;
     protected $fillable = [
         'id_promo',
         'id_restoran',
         'id_user',
         'jumlah_orang',
-        'tanggal',
-        'jam',
+        'tanggal_reservasi',
+        'waktu_reservasi',
     ];
 
     public function user()

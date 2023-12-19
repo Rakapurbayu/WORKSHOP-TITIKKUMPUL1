@@ -19,8 +19,7 @@
     </head>
 
     <body>
-        <form action="/jokopi" method="POST">
-            @csrf
+      
             <div class="desktop-1-7eh">
                 <div class="auto-group-fnnf-JDP">
                     <div class="image-1-CCH">
@@ -137,6 +136,6 @@
                         </div>
 
                     @include('partials.reservcard')   
-        </form>
+       
     </body>
 @endsection

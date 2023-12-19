@@ -15,6 +15,7 @@ return new class extends Migration
     {
         Schema::create('tikumers', function (Blueprint $table) {
             $table->string('ID_USER', 8)->primary();
+
             $table->string('USERNAME', 18);
             $table->string('PASSWORD', 18);
             $table->string('ROLE', 1);
