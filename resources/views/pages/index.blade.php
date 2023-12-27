@@ -105,7 +105,7 @@
                                 </a>
 
                                 <div class="property-content">
-                                    <div class="price mb-2"><span>$1,291,000</span></div>
+                                    <div class="price mb-2"><span>Pablo Lounge</span></div>
                                     <div>
                                         <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
                                         <span class="city d-block mb-3">California, USA</span>
@@ -143,6 +143,29 @@
                                 </div>
                             </div>
                             <!-- .item -->
+                            @foreach($createv as $createvendor)
+    <div class="property-item">
+        <a href="{{ route('jokopi.index') }}" class="img">
+            <img src="{{ asset($createvendor->image_path) }}" alt="Image" class="img-fluid" />
+        </a>
+                                
+        <div class="property-content">
+            <div class="price mb-2"><span>{{ $createvendor->title }}</span></div>
+            <div>
+                <span class="d-block mb-2 text-black-50">{{ $createvendor->address }}</span>
+                <span class="city d-block mb-3">{{ $createvendor->city }}</span>
+
+                <div class="specs d-flex mb-4">
+                    <a href="{{ route('jokopi.details', ['id' => $createvendor->id]) }}" class="btn btn-primary py-2 px-3">See Menu</a>
+                </div>
+                                        
+                <a href="{{ route('jokopi.details', ['id' => $createvendor->id]) }}" class="btn btn-primary py-2 px-3">See details</a>
+            </div>
+        </div>
+    </div>
+@endforeach
+
+                                     <!-- .item -->
                         </div>
 
                         <div id="property-nav" class="controls" tabindex="0" aria-label="Carousel Navigation">

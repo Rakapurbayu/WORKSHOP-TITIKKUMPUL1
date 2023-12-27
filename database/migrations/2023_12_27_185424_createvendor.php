@@ -8,28 +8,25 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
-     *
-     * @return void
      */
-    public function up()
+    public function up(): void
     {
-        Schema::create('vendor', function (Blueprint $table) {
+        Schema::create('createvendor', function (Blueprint $table) {
             $table->id();
             $table->string('title');
             $table->string('city');
+            $table->string('address');
             $table->text('description');
-            $table->blob('image_path'); // Kolom untuk menyimpan path gambar
+            $table->string('image_path');
             $table->timestamps();
         });
     }
 
     /**
      * Reverse the migrations.
-     *
-     * @return void
      */
-    public function down()
+    public function down(): void
     {
-        Schema::dropIfExists('vendor');
+        Schema::dropIfExists('createvendor');
     }
 };

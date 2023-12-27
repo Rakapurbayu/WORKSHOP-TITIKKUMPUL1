@@ -25,7 +25,12 @@ use App\Http\Controllers\CreateVendorController;
 
 Route::get('/', function () {
     return view('pages.index');
+
+    
 });
+
+Route::get('/vendor/{id}', 'JokopiController@index')->name('jokopi.details');
+
 
 
 
@@ -53,7 +58,7 @@ Route::delete('/pesanansaya/destroy/{id}',[ListPemesananController::class,'destr
 
 // CREATE VENDOR controller
 Route::get('/createvendor',[CreateVendorController::class,'index'])->name('createvendor.index');
-Route::post('/createvendor/store', [CreateVendorController::class, 'store'])->name('createvendor.store');
+Route::post('/createvendor/home', [CreateVendorController::class, 'store'])->name('createvendor.store');
 
 // Route::group(['AuthenticateReservation' => 'check.uid'], function () {
 //     // Rute yang memerlukan otorisasi berdasarkan UID
