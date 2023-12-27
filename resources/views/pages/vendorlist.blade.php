@@ -47,31 +47,55 @@
                                         <tr>
                                             <th>ID RESERVASI</th>
                                             <th>ID USER</th>
+                                            <th>USERNAME</th>
                                             <th>TANGGAL RESERVASI</th>
                                             <th>WAKTU RESERVASI</th>
                                             <th>JUMLAH ORANG</th>
+                                            <th>ACTION</th>
                                             < </tr>
                                     </thead>
                                     <tbody>
                                         @foreach ($reservasis as $reservasi)
-                                            <tr>
-                                                <td>{{ $reservasi->ID_RESERVASI }}</td>
-                                                <td>{{ $reservasi->ID_USER }}</td>
-                                                <td> {{ $reservasi->TANGGAL_RESERVASI }} </td>
-                                                <td>{{ $reservasi->WAKTU_RESERVASI }}</td>
-                                                <td>{{ $reservasi->JUMLAH_ORANG }}</td>
+                                            {{-- <tr>
+                                                <td>{{ $reservasi->id_reservasi }}</td>
+                                                <td>{{ $reservasi->id_user }}</td>
+                                                <td>{{ $reservasi->user->username }}</td>
+                                                <td>{{ $reservasi->tanggal_reservasi }}</td>
+                                                <td>{{ $reservasi->waktu_reservasi }}</td>
+                                                <td>{{ $reservasi->jumlah_orang }}</td>
                                                 <td>
-                                                    {{-- <form action="{{ route('reservasi.destroy', $reservasi->ID_RESERVASI) }}"
+                                                    <form
+                                                        action="{{ route('reservasi.destroy', $reservasi->id_reservasi) }}"
                                                         method="POST" enctype="multipart/form-data">
                                                         @method('delete')
                                                         @csrf
                                                         <button class="btn btn-danger"
                                                             onclick="return confirm('Anda yakin?')"
-                                                            type="submit">Cancel</button>
-                                                    </form> --}}
+                                                            type="submit">Clear</button>
+                                                    </form>
+                                                </td>
+                                            </tr> --}}
+                                            <tr>
+                                                <td>{{ $reservasi->id_reservasi }}</td>
+                                                <td>{{ $reservasi->id_user }}</td>
+                                                <td>{{ $reservasi->username }}</td>
+                                                <td>{{ $reservasi->tanggal_reservasi }}</td>
+                                                <td>{{ $reservasi->waktu_reservasi }}</td>
+                                                <td>{{ $reservasi->jumlah_orang }}</td>
+                                                <td>
+                                                    <form
+                                                        action="{{ route('vendor.destroy', $reservasi->id_reservasi) }}"
+                                                        method="POST" enctype="multipart/form-data">
+                                                        @method('delete')
+                                                        @csrf
+                                                        <button class="btn btn-danger"
+                                                            onclick="return confirm('Anda yakin?')"
+                                                            type="submit">Clear</button>
+                                                    </form>
                                                 </td>
                                             </tr>
                                         @endforeach
+
                                     </tbody>
                                 </table>
                             </div>

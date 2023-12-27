@@ -10,7 +10,7 @@ class Reservasi extends Model
     public $timestamps = false;
     public $incrementing = true;
     protected $fillable = [
-        'id_promo',
+        'id_reservasi',
         'id_restoran',
         'id_user',
         'jumlah_orang',
@@ -20,6 +20,6 @@ class Reservasi extends Model
 
     public function user()
     {
-        return $this->belongsTo(User::class, 'ID_USER');
+        return $this->belongsTo(User::class, 'ID_USER', 'ID_USER');
     }
 }

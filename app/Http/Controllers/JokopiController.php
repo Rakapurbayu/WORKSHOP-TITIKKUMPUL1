@@ -17,13 +17,11 @@ class JokopiController extends Controller
     }
 
     public function create(Request $request)
-{
-
-
+    {
     }
 
 
-   /**
+    /**
      * Store a newly created resource in storage.
      */
     // public function store(Request $request)
@@ -57,31 +55,31 @@ class JokopiController extends Controller
     // }
 
     public function store(Request $request)
-{
-    try {
-        $request->validate([
-            'JUMLAH_ORANG' => 'required|numeric|min:1',
-            'TANGGAL_RESERVASI' => 'required|date',
-            'WAKTU_RESERVASI' => 'required',
-        ]);
+    {
+        try {
+            $request->validate([
+                'JUMLAH_ORANG' => 'required|numeric|min:1',
+                'TANGGAL_RESERVASI' => 'required|date',
+                'WAKTU_RESERVASI' => 'required',
+            ]);
 
-        $data = new Reservasi();
-        $data->ID_USER = auth()->id(); // Menggunakan auth() untuk mendapatkan ID pengguna yang terotentikasi
-        $data->JUMLAH_ORANG = $request->input('JUMLAH_ORANG');
-        $data->TANGGAL_RESERVASI = $request->input('TANGGAL_RESERVASI');
-        $data->WAKTU_RESERVASI = $request->input('WAKTU_RESERVASI');
-        $tes = $data->save();
+            $data = new Reservasi();
+            $data->ID_USER = auth()->id(); // Menggunakan auth() untuk mendapatkan ID pengguna yang terotentikasi
+            $data->JUMLAH_ORANG = $request->input('JUMLAH_ORANG');
+            $data->TANGGAL_RESERVASI = $request->input('TANGGAL_RESERVASI');
+            $data->WAKTU_RESERVASI = $request->input('WAKTU_RESERVASI');
+            $tes = $data->save();
 
-        // Redirect ke route ListPemesanan setelah berhasil menyimpan reservasi
-        return redirect()->route('ListPemesanan')->with('success', 'Reservasi berhasil');
-    } catch (\Exception $e) {
-        // Log kesalahan untuk investigasi lebih lanjut
-        \Log::error($e);
+            // Redirect ke route ListPemesanan setelah berhasil menyimpan reservasi
+            return redirect()->route('ListPemesanan')->with('success', 'Reservasi berhasil');
+        } catch (\Exception $e) {
+            // Log kesalahan untuk investigasi lebih lanjut
+            \Log::error($e);
 
-        // Tampilkan halaman dengan pesan kesalahan jika terjadi error
-        return view('pages.jokopi', ['error' => $e->getMessage()]);
+            // Tampilkan halaman dengan pesan kesalahan jika terjadi error
+            return view('pages.jokopi', ['error' => $e->getMessage()]);
+        }
     }
-}
 
 
     /**

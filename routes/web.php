@@ -11,6 +11,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ListPemesananController;
 use App\Http\Controllers\ReservationController;
 use App\Http\Controllers\CreateVendorController;
+use App\Http\Controllers\VendorlistController;
 
 /*
 |--------------------------------------------------------------------------
@@ -49,7 +50,7 @@ Route::get('/vendor', [PesanMakanController::class, 'Vendor'])->name('DetailsVen
 Route::get('/jokopi',[JokopiController::class,'index'])->name('jokopi.index');
 Route::post('/jokopi/pesanansaya',[JokopiController::class,'store'])->name('jokopi.store');
 
-Route::delete('/pesanansaya/destroy/{id}',[ListPemesananController::class,'destroy'])->name('reservasi.destroy');
+Route::delete('/pesanansaya/destroy/{id}',[ListPemesananController::class,'LPdestroy'])->name('reservasi.destroy');
 
 // CREATE VENDOR controller
 Route::get('/createvendor',[CreateVendorController::class,'index'])->name('createvendor.index');
@@ -61,3 +62,11 @@ Route::post('/createvendor/store', [CreateVendorController::class, 'store'])->na
 // });
 
 //
+
+//Vendor
+
+
+// Other routes...
+
+Route::get('/vendorpemesanan', [VendorlistController::class, 'ListVendor'])->name('ListVendor')->middleware('AuthenticateReservation');
+Route::delete('/pesanansaya/destroy/{id}', [VendorlistController::class, 'VLdestroy'])->name('vendor.destroy');
