@@ -91,88 +91,12 @@
                             </div>
                             <!-- .item -->
 
-                            <div class="property-item">
-                                <a href="property-single.html" class="img">
-                                    <img src="images/img_3.jpg" alt="Image" class="img-fluid" />
-                                </a>
 
-                                <div class="property-content">
-                                    <div class="price mb-2"><span>$1,291,000</span></div>
-                                    <div>
-                                        <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                                        <span class="city d-block mb-3">California, USA</span>
 
-                                        <div class="specs d-flex mb-4">
-                                            <a href="property-single.html" class="btn btn-primary py-2 px-3">See Menu</a>
-                                        </div>
-
-                                        <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
-                                    </div>
-                                </div>
-                            </div>
                             <!-- .item -->
 
-                            <div class="property-item">
-                                <a href="property-single.html" class="img">
-                                    <img src="images/img_4.jpg" alt="Image" class="img-fluid" />
-                                </a>
-
-                                <div class="property-content">
-                                    <div class="price mb-2"><span>$1,291,000</span></div>
-                                    <div>
-                                        <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                                        <span class="city d-block mb-3">California, USA</span>
-
-                                        <div class="specs d-flex mb-4">
-                                            <a href="property-single.html" class="btn btn-primary py-2 px-3">See Menu</a>
-                                        </div>
-
-                                        <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
-                                    </div>
-                                </div>
-                            </div>
                             <!-- .item -->
 
-                            <div class="property-item">
-                                <a href="property-single.html" class="img">
-                                    <img src="images/img_5.jpg" alt="Image" class="img-fluid" />
-                                </a>
-
-                                <div class="property-content">
-                                    <div class="price mb-2"><span>$1,291,000</span></div>
-                                    <div>
-                                        <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                                        <span class="city d-block mb-3">California, USA</span>
-
-                                        <div class="specs d-flex mb-4">
-                                            <a href="property-single.html" class="btn btn-primary py-2 px-3">See Menu</a>
-                                        </div>
-
-                                        <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- .item -->
-
-                            <div class="property-item">
-                                <a href="property-single.html" class="img">
-                                    <img src="images/img_6.jpg" alt="Image" class="img-fluid" />
-                                </a>
-
-                                <div class="property-content">
-                                    <div class="price mb-2"><span>$1,291,000</span></div>
-                                    <div>
-                                        <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                                        <span class="city d-block mb-3">California, USA</span>
-
-                                        <div class="specs d-flex mb-4">
-                                            <a href="property-single.html" class="btn btn-primary py-2 px-3">See Menu</a>
-                                        </div>
-
-                                        <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
-                                    </div>
-                                </div>
-                            </div>
                             <!-- .item -->
 
                             <div class="property-item">
@@ -196,25 +120,7 @@
                             </div>
                             <!-- .item -->
 
-                            <div class="property-item">
-                                <a href="property-single.html" class="img">
-                                    <img src="images/img_8.jpg" alt="Image" class="img-fluid" />
-                                </a>
 
-                                <div class="property-content">
-                                    <div class="price mb-2"><span>$1,291,000</span></div>
-                                    <div>
-                                        <span class="d-block mb-2 text-black-50">5232 California Fake, Ave. 21BC</span>
-                                        <span class="city d-block mb-3">California, USA</span>
-
-                                        <div class="specs d-flex mb-4">
-                                            <a href="property-single.html" class="btn btn-primary py-2 px-3">See Menu</a>
-                                        </div>
-
-                                        <a href="property-single.html" class="btn btn-primary py-2 px-3">See details</a>
-                                    </div>
-                                </div>
-                            </div>
                             <!-- .item -->
 
                             <div class="property-item">

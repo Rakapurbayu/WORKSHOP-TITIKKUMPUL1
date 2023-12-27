@@ -16,7 +16,7 @@
                                 <p class="make-reservations-pCq">Make Reservations</p>
                                 <img class="line-1-variant2-x49" src="./assets/line-1-variant2-bCd.png" />
 
-                                
+
                             </div>
                             <div class="auto-group-ppx3-tTb">
                                 <p>Party Size</p>

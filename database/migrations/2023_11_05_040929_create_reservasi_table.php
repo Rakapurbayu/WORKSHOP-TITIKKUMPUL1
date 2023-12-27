@@ -22,7 +22,7 @@ return new class extends Migration
             $table->date('TANGGAL_RESERVASI');
             $table->time('WAKTU_RESERVASI');
             $table->integer('JUMLAH_ORANG');
-            
+
         });
     }
 

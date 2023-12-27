@@ -19,7 +19,7 @@ class JokopiController extends Controller
     public function create(Request $request)
 {
 
-   
+
     }
 
 
@@ -28,8 +28,8 @@ class JokopiController extends Controller
      */
     // public function store(Request $request)
     // {
-        
-    
+
+
     //     try {
     //         $request->validate([
     //             'JUMLAH_ORANG' => 'required|numeric|min:1',
@@ -43,17 +43,17 @@ class JokopiController extends Controller
     //         $data->TANGGAL_RESERVASI = $request->input('TANGGAL_RESERVASI');
     //         $data->WAKTU_RESERVASI = $request->input('WAKTU_RESERVASI');
     //        $tes =  $data->save();
-            
+
     //        dd($tes);
     //         return redirect()->route('ListPemesanan')->with('success', 'Reservasi berhasil');
     //         } catch (\Exception $e) {
     //             // Log the exception for further investigation
     //             \Log::error($e);
-    
+
     //             return view('peges.jokopi',['error'=>$e->getMessage()]);
     //         }
 
-    
+
     // }
 
     public function store(Request $request)
@@ -79,7 +79,7 @@ class JokopiController extends Controller
         \Log::error($e);
 
         // Tampilkan halaman dengan pesan kesalahan jika terjadi error
-        return view('peges.jokopi', ['error' => $e->getMessage()]);
+        return view('pages.jokopi', ['error' => $e->getMessage()]);
     }
 }
 
@@ -87,7 +87,7 @@ class JokopiController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(examp $request)
+    public function show(Request $request)
     {
         //
     }
@@ -95,7 +95,7 @@ class JokopiController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(examp $request)
+    public function edit(Request $request)
     {
         //
     }
@@ -103,7 +103,7 @@ class JokopiController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, examp $examp)
+    public function update(Request $request, Request $edit)
     {
         //
     }
@@ -111,11 +111,11 @@ class JokopiController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(examp $examp)
+    public function destroy(Request $request)
     {
         //
     }
-  
+
 
     // $data = new Reservasi();
     // $data->ID_USER = Auth::id();

@@ -6902,7 +6902,7 @@ textarea.form-control-lg {
 
 .text-black-50, body {
   --bs-text-opacity: 1;
-  color: #212121 !important; }
+  color: #bcbcbc !important; }
 
 .text-white-50 {
   --bs-text-opacity: 1;
@@ -9755,8 +9755,8 @@ textarea {
         background: rgba(34, 34, 34, 0.4); }
 
 .section {
-  padding-top: 4rem;
-  padding-bottom: 4rem; }
+  padding-top: 8rem;
+  padding-bottom: 3rem; }
   .section .heading {
     font-weight: 500; }
     @media (max-width: 767.98px) {

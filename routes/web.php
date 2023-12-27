@@ -46,6 +46,7 @@ Route::get('/vendor', [PesanMakanController::class, 'Vendor'])->name('DetailsVen
 Route::get('/jokopi',[JokopiController::class,'index'])->name('jokopi.index');
 Route::post('/jokopi/pesanansaya',[JokopiController::class,'store'])->name('jokopi.store');
 
+Route::delete('/pesanansaya/destroy/{id}',[ListPemesananController::class,'destroy'])->name('reservasi.destroy');
 // Route::group(['AuthenticateReservation' => 'check.uid'], function () {
 //     // Rute yang memerlukan otorisasi berdasarkan UID
 //     Route::get('/pesanansaya', 'JokopiController@method');

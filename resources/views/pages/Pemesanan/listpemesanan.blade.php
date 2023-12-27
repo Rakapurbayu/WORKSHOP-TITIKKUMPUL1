@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="assets_2/plugins/datatables/datatables.min.css">
 	<link rel="stylesheet" href="assets_2/css/feathericon.min.css">
 	<link rel="stylesheet" href="assets_2/plugins/morris/morris.css">
-	<link rel="stylesheet" href="assets_2/css/style.css"> 
+	<link rel="stylesheet" href="assets_2/css/style.css">
 
 </head>
 
@@ -47,11 +47,10 @@
 											<tr>
 												<th>ID RESERVASI</th>
 												<th>ID USER</th>
-							
 												<th>TANGGAL RESERVASI</th>
 												<th>WAKTU RESERVASI</th>
 												<th>JUMLAH ORANG</th>
-											
+                                                <th>ACTION</th>
 												<
 											</tr>
 										</thead>
@@ -59,15 +58,22 @@
 											@foreach($reservasis as $reservasi)
 											<tr>
 												<td>{{$reservasi->ID_RESERVASI}}</td>
-												
-											
+
+
 												<td>{{$reservasi->ID_USER}}</td>
 												<td> {{ $reservasi->TANGGAL_RESERVASI}}		</td>
 											<td>{{$reservasi->WAKTU_RESERVASI}}</td>
 											<td>{{$reservasi->JUMLAH_ORANG}}</td>
-												
-											
-					
+                                            <td>
+                                                <form action="{{route('reservasi.destroy',$reservasi->ID_RESERVASI)}}" method="POST" enctype="multipart/form-data">
+                                                @method('delete')
+                                                @csrf
+                                                <button class="btn btn-danger" onclick="return confirm('Anda yakin?')" type="submit">Cancel</button>
+                                                </form>
+                                            </td>
+
+
+
 											</tr>
 											@endforeach
 										</tbody>
@@ -93,7 +99,7 @@
 		</div>
 	</div>
 
-    
+
 
 
 
