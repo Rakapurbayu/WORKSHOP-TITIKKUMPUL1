@@ -26,35 +26,63 @@ class JokopiController extends Controller
    /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
-    {
+    // public function store(Request $request)
+    // {
         
     
-        try {
-            $request->validate([
-                'JUMLAH_ORANG' => 'required|numeric|min:1',
-                'TANGGAL_RESERVASI' => 'required|date',
-                'WAKTU_RESERVASI' => 'required',
-            ]);
+    //     try {
+    //         $request->validate([
+    //             'JUMLAH_ORANG' => 'required|numeric|min:1',
+    //             'TANGGAL_RESERVASI' => 'required|date',
+    //             'WAKTU_RESERVASI' => 'required',
+    //         ]);
 
-            $data = new Reservasi();
-            $data->ID_USER = AUTH::id();
-            $data->JUMLAH_ORANG = $request->input('JUMLAH_ORANG');
-            $data->TANGGAL_RESERVASI = $request->input('TANGGAL_RESERVASI');
-            $data->WAKTU_RESERVASI = $request->input('WAKTU_RESERVASI');
-           $tes =  $data->save();
+    //         $data = new Reservasi();
+    //         $data->ID_USER = AUTH::id();
+    //         $data->JUMLAH_ORANG = $request->input('JUMLAH_ORANG');
+    //         $data->TANGGAL_RESERVASI = $request->input('TANGGAL_RESERVASI');
+    //         $data->WAKTU_RESERVASI = $request->input('WAKTU_RESERVASI');
+    //        $tes =  $data->save();
             
-           dd($tes);
-            return redirect()->route('ListPemesanan')->with('success', 'Reservasi berhasil');
-            } catch (\Exception $e) {
-                // Log the exception for further investigation
-                \Log::error($e);
+    //        dd($tes);
+    //         return redirect()->route('ListPemesanan')->with('success', 'Reservasi berhasil');
+    //         } catch (\Exception $e) {
+    //             // Log the exception for further investigation
+    //             \Log::error($e);
     
-                return view('peges.jokopi',['error'=>$e->getMessage()]);
-            }
+    //             return view('peges.jokopi',['error'=>$e->getMessage()]);
+    //         }
 
     
+    // }
+
+    public function store(Request $request)
+{
+    try {
+        $request->validate([
+            'JUMLAH_ORANG' => 'required|numeric|min:1',
+            'TANGGAL_RESERVASI' => 'required|date',
+            'WAKTU_RESERVASI' => 'required',
+        ]);
+
+        $data = new Reservasi();
+        $data->ID_USER = auth()->id(); // Menggunakan auth() untuk mendapatkan ID pengguna yang terotentikasi
+        $data->JUMLAH_ORANG = $request->input('JUMLAH_ORANG');
+        $data->TANGGAL_RESERVASI = $request->input('TANGGAL_RESERVASI');
+        $data->WAKTU_RESERVASI = $request->input('WAKTU_RESERVASI');
+        $tes = $data->save();
+
+        // Redirect ke route ListPemesanan setelah berhasil menyimpan reservasi
+        return redirect()->route('ListPemesanan')->with('success', 'Reservasi berhasil');
+    } catch (\Exception $e) {
+        // Log kesalahan untuk investigasi lebih lanjut
+        \Log::error($e);
+
+        // Tampilkan halaman dengan pesan kesalahan jika terjadi error
+        return view('peges.jokopi', ['error' => $e->getMessage()]);
     }
+}
+
 
     /**
      * Display the specified resource.
