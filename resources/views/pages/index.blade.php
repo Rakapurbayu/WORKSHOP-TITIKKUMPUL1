@@ -41,7 +41,7 @@
 
                 <div class="col-lg-6 text-lg-end">
                     <p>
-                        <a href="/Pemesanan/" target="_blank" class="btn btn-primary text-white py-3 px-4">+ Buat titik kumpul </a>
+                        <a  href="{{ route('createvendor.index') }}" target="_blank" class="btn btn-primary text-white py-3 px-4">+ Buat titik kumpul </a>
                     </p>
                 </div>
             </div>

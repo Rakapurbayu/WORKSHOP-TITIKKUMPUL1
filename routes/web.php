@@ -10,6 +10,7 @@ use App\Http\Controllers\JokopiController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ListPemesananController;
 use App\Http\Controllers\ReservationController;
+use App\Http\Controllers\CreateVendorController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,6 +26,8 @@ use App\Http\Controllers\ReservationController;
 Route::get('/', function () {
     return view('pages.index');
 });
+
+
 
 // Definisi route untuk auth
 Route::get('/login', [AuthController::class, 'login'])->name('login');
@@ -47,7 +50,14 @@ Route::get('/jokopi',[JokopiController::class,'index'])->name('jokopi.index');
 Route::post('/jokopi/pesanansaya',[JokopiController::class,'store'])->name('jokopi.store');
 
 Route::delete('/pesanansaya/destroy/{id}',[ListPemesananController::class,'destroy'])->name('reservasi.destroy');
+
+// CREATE VENDOR controller
+Route::get('/createvendor',[CreateVendorController::class,'index'])->name('createvendor.index');
+Route::post('/createvendor/store', [CreateVendorController::class, 'store'])->name('createvendor.store');
+
 // Route::group(['AuthenticateReservation' => 'check.uid'], function () {
 //     // Rute yang memerlukan otorisasi berdasarkan UID
 //     Route::get('/pesanansaya', 'JokopiController@method');
 // });
+
+//
